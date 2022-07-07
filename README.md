@@ -16,5 +16,5 @@ Data science portfolio
 - Results: Seventy-eight percent of exclusively breastfed infants were supplemented with vitamin D drops. Controlling for breastfeeding status, introduction to solids and maternal education, infants supplemented with vitamin D had 1.6 times higher odds of high-level fecal PG (p<0.05), and 41% lower odds of high-level fecal glycerol (p<0.05) compared to the control group. Fecal PG levels were positively correlated with the relative abundance of Lactobacillus spp. (r=0.3, p<0.05), Enterobacteriaceae (r=0.2, p<0.05), Bifidobacterium spp. (r=0.2, p<0.05) but inversely related to Lachnospiraceae (r= -0.3, p<0.05). Accordingly, a higher fecal PG concentration was correlated with higher acetate (r=0.1, p<0.05) but lower butyrate (r= -0.4, p<0.05) and propionate (r= -0.4, p<0.05) levels. 
 - Conclusions: Infants supplemented with vitamin D exhibit higher fecal PG levels. The novel link between fecal PG and probiotic microbiota, notably Bifidobacterium, and with microbial acetate, butyrate and propionate may have implications for infant health. 
 
-![multiple linear regression]()
+![multiple linear regression](https://github.com/davidzhao1015/DavidZhao_Portfolio/blob/main/images/tab1.png)
 ![spearman correlation between gut microbiota and metabolites](https://github.com/davidzhao1015/DavidZhao_Portfolio/blob/main/images/fig1.png)
