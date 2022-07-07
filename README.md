@@ -10,9 +10,8 @@ Data science portfolio
 - The optimal GLMM model possessed a sensitivity of 0.9 and specificity of 0.6 under the best threshold. 
 - The microbiome-based machine learning models identified five possible gut biomarkers, including Osillospira, Rikenellaceae genus, Blautia, Phascolarctobacterium, and Haemophilus.   
 
-![](https://github.com/davidzhao1015/DavidZhao_Portfolio/blob/main/images/fig1_proj1.png)
-![]()
-![]() 
+![pie chart](https://github.com/davidzhao1015/DavidZhao_Portfolio/blob/main/images/fig1_proj1.png)
+![AUC](https://github.com/davidzhao1015/DavidZhao_Portfolio/blob/main/images/fig3_proj1.png) 
 
 # Project 2: Multiple regression for infant gut health: Project Overview
 - Introduction: Health Canada recommends exclusively breastfed, healthy, term infants be supplemented with vitamin D. Vitamin D liquid formulations contain non-medicinal excipients, such as glycerin (glycerol) or propylene glycol (PG). Digested glycerin and PG are fermentable by gut microbiota, producing metabolites likely influencing the host. In this respect, we sought to assess infant fecal samples for the presence of glycerin and PG levels in relation to vitamin D supplementation and their association with gut microbiota and metabolites.   
