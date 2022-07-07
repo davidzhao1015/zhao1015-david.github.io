@@ -10,7 +10,6 @@ Data science portfolio
 - The optimal GLMM model possessed a sensitivity of 0.9 and specificity of 0.6 under the best threshold. 
 - The microbiome-based machine learning models identified five possible gut biomarkers, including Osillospira, Rikenellaceae genus, Blautia, Phascolarctobacterium, and Haemophilus.   
 
-![pie chart](https://github.com/davidzhao1015/DavidZhao_Portfolio/blob/main/images/fig1_proj1.png)
 ![AUC](https://github.com/davidzhao1015/DavidZhao_Portfolio/blob/main/images/fig3_proj1.png) 
 
 # Project 2: Multiple regression for infant gut health: Project Overview
