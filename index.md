@@ -27,7 +27,7 @@
 
 ### Classifier of childhood obesity trajectory based on infant fecal microbiome data 
 [![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_predict-child-obesity_davidzhao.pdf)
-[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](bmi_traj_pred_infant_microbiota.Rmd) 
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](https://github.com/davidzhao1015/infant_microbiota_predict_obesity/blob/main/bmi_traj_pred_infant_microbiota.Rmd) 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
