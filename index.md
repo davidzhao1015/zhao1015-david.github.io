@@ -7,7 +7,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Multivarite model on human microbiome and clinical variables with Human Microbiome Project-IBD dataset](html/maaslin2-IBD-microbiome.html)
+[Multivariate regression of microbiome composition and medical covariables using Human Microbiome Project-IBD dataset](html/maaslin2-IBD-microbiome.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
