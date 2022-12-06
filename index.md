@@ -18,11 +18,15 @@
 
 ### Machine Learning 
 
-[Prediction of childhood obesity trajectory with infant's fecal microbiota data](/sample_page)
+[Machine leanring predictoin of childhood obesity with infant microbiome data](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
+### Genomic Bioinformatics
+
+[Comparative genomics of gut and sourdough lactobacilli](/pdf/sample_presentation.pdf)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
