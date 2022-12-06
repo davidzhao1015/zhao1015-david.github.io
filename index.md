@@ -2,8 +2,8 @@
 
 ---
 
-### Microbiome Epidemiology
-[Cohort study: Association of vitamin D use and infant microbiome composition and activity]\ 
+## Microbiome Epidemiology
+### Cohort study: Association of vitamin D use and infant microbiome composition and activity
 [![](https://img.shields.io/badge/PDF-Open_research_poster-B44F99?logo=PDF)](pdf/Poster_vitD_microbiome_david.pdf) 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
@@ -21,7 +21,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/> 
 
 
-### Machine Learning 
+## Machine Learning 
 
 [Machine leanring predictoin of childhood obesity with infant microbiome data](pdf/PPT_predict-child-obesity_davidzhao.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
