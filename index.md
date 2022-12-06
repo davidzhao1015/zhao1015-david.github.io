@@ -25,7 +25,7 @@
 
 ## Machine Learning 
 
-### Machine leanring predicter for childhood obesity based on infant fecal microbiome data 
+### Classifier of childhood obesity trajectory based on infant fecal microbiome data 
 [![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_predict-child-obesity_davidzhao.pdf)  
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
