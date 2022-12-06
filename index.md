@@ -7,7 +7,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Multivarite model on human microbiome and clinical variables with Human Microbiome Project-IBD dataset](https://github.com/davidzhao1015/Multiple-regression-model-microbiome-IBD-MaAsLin2/blob/e610e6655e39b450e811723c683d4e44e5b9c5ce/docs/index.html)
+[Multivarite model on human microbiome and clinical variables with Human Microbiome Project-IBD dataset](html/zero-inflated-models-mcirobiome.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
