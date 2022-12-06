@@ -1,4 +1,4 @@
-## Portfolio
+# Portfolio
 
 ---
 
@@ -8,29 +8,33 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Multivariate regression of microbiome composition and medical covariables using Human Microbiome Project-IBD dataset](html/maaslin2-IBD-microbiome.html)
+### Multivariate regression of microbiome composition and medical covariables using Human Microbiome Project-IBD dataset 
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-1182C3?logo=GitHub)](html/maaslin2-IBD-microbiome.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Models on zero-inflated microbiome (abundance) data](html/zero-inflated-models-mcirobiome.html) 
+### Models on zero-inflated microbiome (abundance) data
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/zero-inflated-models-mcirobiome.html) 
 <img src="images/dummy_thumbnail.jpg?raw=true"/> 
 
 ---
-[Models on over-dispersed microbiome (abundance) data](html/overdisp-zeroinflate-model.html) 
+### Models on over-dispersed microbiome (abundance) data
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/overdisp-zeroinflate-model.html)  
 <img src="images/dummy_thumbnail.jpg?raw=true"/> 
 
 
 ## Machine Learning 
 
-[Machine leanring predictoin of childhood obesity with infant microbiome data](pdf/PPT_predict-child-obesity_davidzhao.pdf)
+### Machine leanring predicter for childhood obesity based on infant fecal microbiome data 
+[![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_predict-child-obesity_davidzhao.pdf)  
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Genomic Bioinformatics
+## Genomic Bioinformatics
 
-[Comparative genomics of gut and sourdough lactobacilli](pdf/PPT_phd_david.pdf)
+### Comparative genomics of gut and sourdough lactobacilli 
+[![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_phd_david.pdf)  
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
