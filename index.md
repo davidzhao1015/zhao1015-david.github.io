@@ -18,7 +18,7 @@
 
 ### Machine Learning 
 
-[Machine leanring predictoin of childhood obesity with infant microbiome data](/sample_page)
+[Machine leanring predictoin of childhood obesity with infant microbiome data](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
