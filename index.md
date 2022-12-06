@@ -4,10 +4,12 @@
 
 ### Microbiome Epidemiology
 [Cohort study: Association of vitamin D use and infant microbiome composition and activity](pdf/Poster_vitD_microbiome_david.pdf) 
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-1182C3?logo=GitHub)](html/maaslin2-IBD-microbiome.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Multivariate regression of microbiome composition and medical covariables using Human Microbiome Project-IBD dataset](html/maaslin2-IBD-microbiome.html)
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-1182C3?logo=GitHub)](html/maaslin2-IBD-microbiome.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
