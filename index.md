@@ -11,11 +11,11 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Models on zero-inflated microbiome (abundance) data](http://example.com/)
+[Models on zero-inflated microbiome (abundance) data](html/zero-inflated-models-mcirobiome.html) 
 <img src="images/dummy_thumbnail.jpg?raw=true"/> 
 
 ---
-[Models on over-dispersed microbiome (abundance) data](http://example.com/) 
+[Models on over-dispersed microbiome (abundance) data](html/overdisp-zeroinflate-model.html) 
 <img src="images/dummy_thumbnail.jpg?raw=true"/> 
 
 
