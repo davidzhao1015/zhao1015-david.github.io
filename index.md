@@ -15,7 +15,9 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/> 
 
 ---
+
 ### Machine Learning 
+
 [Prediction of childhood obesity trajectory with infant's fecal microbiota data](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
