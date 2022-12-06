@@ -28,7 +28,7 @@
 
 ### Genomic Bioinformatics
 
-[Comparative genomics of gut and sourdough lactobacilli](/pdf/sample_presentation.pdf)
+[Comparative genomics of gut and sourdough lactobacilli](pdf/PPT_phd_david.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
