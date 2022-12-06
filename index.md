@@ -2,32 +2,24 @@
 
 ---
 
-### Category Name 1 
-
-[Project 1 Title](/sample_page)
+### Epidemiology
+[Cohort study: association of vitamin D use and early development of gut microbiome](/pdf/sample_presentation.pdf) 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Multivariate model on human microbiome composition and IBD](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Statistical models for over-dispersed and zero-inflated microbiome count data](http://example.com/)
+<img src="images/dummy_thumbnail.jpg?raw=true"/> 
+
+---
+### Machine Learning 
+[Prediction of childhood obesity trajectory with infant's fecal microbiota data](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
 
 
 ---
