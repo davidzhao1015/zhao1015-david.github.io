@@ -3,11 +3,11 @@
 ---
 
 ### Microbiome Epidemiology
-[Cohort study: Association of vitamin D use and early development of gut microbiome](/pdf/sample_presentation.pdf) 
+[Cohort study: Association of vitamin D use and infant microbiome composition and activity](/pdf/sample_presentation.pdf) 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Multivarite model on human microbiome composition with Human Microbiome Project-IBD dataset](http://example.com/) 
+[Multivarite model on human microbiome and clinical variables with Human Microbiome Project-IBD dataset](http://example.com/) 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
