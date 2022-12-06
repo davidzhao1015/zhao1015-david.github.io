@@ -11,10 +11,13 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Statistical models for over-dispersed, zero-inflated microbiome count data](http://example.com/)
+[Models on zero-inflated microbiome (abundance) data](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/> 
 
 ---
+[Models on over-dispersed microbiome (abundance) data](http://example.com/) 
+<img src="images/dummy_thumbnail.jpg?raw=true"/> 
+
 
 ### Machine Learning 
 
