@@ -19,7 +19,10 @@
 ---
 ### Models on zero-inflated microbiome (abundance) data
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/zero-inflated-models-mcirobiome.html) 
+#### Microbiome abundance data often contain excessive zero, which causes rejection of the assumption of traditional statistical models, such as Poisson regression. Biostatisticians developed advanced models to address the issue, including zero-inflated Negative Binomial and zero-inflated Poisson, zero-hurdle Negative Binomial, and zero-hurdle Poisson models. I showcase the capability of such models in a case study with the IBD data set of the Human Microbiome Project, following the instruction in the book, Statistical analysis of microbiome with R. Using AIC and likelihood ratio test, I compare performance of candidate models. 
 <img src="images/image_zero-inflate_david.png?raw=false"/> 
+- **Statistical methods: zero-inflation Poisson/NB; zero-hurdle Poisson/NB**
+- **R packages: pscl; lmtest**
 
 ---
 ### Models on over-dispersed microbiome (abundance) data
