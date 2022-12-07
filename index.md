@@ -15,7 +15,7 @@
 ---
 ### Models on zero-inflated microbiome (abundance) data
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/zero-inflated-models-mcirobiome.html) 
-<img src="images/dummy_thumbnail.jpg?raw=true"/> 
+<img src="images/image_zero-inflate_david.png?raw=false"/> 
 
 ---
 ### Models on over-dispersed microbiome (abundance) data
