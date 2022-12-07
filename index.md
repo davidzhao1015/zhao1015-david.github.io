@@ -20,7 +20,7 @@
 ---
 ### Models on over-dispersed microbiome (abundance) data
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/overdisp-zeroinflate-model.html)  
-<img src="images/dummy_thumbnail.jpg?raw=true"/> 
+<img src="images/image_overdispersion_david.png?raw=false"/> 
 
 
 ## Machine Learning 
