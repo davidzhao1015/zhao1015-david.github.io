@@ -10,7 +10,7 @@
 ---
 ### Multivariate regression of microbiome composition and medical covariables using Human Microbiome Project-IBD dataset 
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-1182C3?logo=GitHub)](html/maaslin2-IBD-microbiome.html)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/image_multi-regression_david.png?raw=false"/>
 
 ---
 ### Models on zero-inflated microbiome (abundance) data
