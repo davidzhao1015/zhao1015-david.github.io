@@ -1,5 +1,4 @@
 # Portfolio
-
 ## 🩺Microbiome Epidemiology
 ### Infant vitamin D liquid formulations and fecal metabolomics and microbiome, a cohort study
 [![](https://img.shields.io/badge/PDF-Open_research_poster-B44F99?logo=PDF)](pdf/Poster_vitD_microbiome_david.pdf) 
@@ -34,18 +33,20 @@
 
 
 ## 🤖Machine Learning 
-
 ### Classifier of childhood obesity trajectory based on infant fecal microbiome data 
 [![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_predict-child-obesity_davidzhao.pdf)
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](https://github.com/davidzhao1015/infant_microbiota_predict_obesity/blob/main/bmi_traj_pred_infant_microbiota.Rmd) 
+#### Knowing obesity risk earlier could help healthcare professionals manage children's weight more effectively. According to the literature review, microbiome composition and functions plays a vital role in overweight development in children. My team proposed including fecal microbiome data in the classifiers to devise a statistical prediction tool to predict future obesity risk. I trained Random Forest, XGBoost, GLMM, and regularized logistic classifiers based on fecal microbiome data of nearly 2000 infants. Based on the ROC-AUC of the validation procedure, I found GLMM-classifier the best with an AUC of 0.83, specificity of 73%, and sensitivity of 85% at the best threshold. In addition, I identified five microbial biomarkers at the genus level with good predictive ability. 
 <img src="images/fig3_proj1.png?raw=false"/>
+- **Statistical methods: Random Forest; XGBoost; Generalzied linear mixed model; regLog; cross-validation**
+- **R packages: caret**
 
 ---
 
 ## 🧬Genomic Bioinformatics
-
 ### Comparative genomics of gut and sourdough lactobacilli 
 [![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_phd_david.pdf)  
+#### 
 <img src="images/image_comparative-genomics.png?raw=false"/>
 
 
