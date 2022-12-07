@@ -27,7 +27,7 @@
 ---
 ### Models on over-dispersed microbiome (abundance) data
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/overdisp-zeroinflate-model.html) 
-#### Microbiome is often over dispered other than zero inflated, which disagree the assumption of the Poisson and Quasi-Poisson models. Negative binomial, however, addresses the over dispersion in microbiome abundance data. I developed a edgeR pipeline to test diffferential abundance of taxa between non-IBD and IBD patients, following the instruction in the book, Statistical analysis of microbiome with R. 
+#### The microbiome is often over-dispersed other than zero-inflated, which disagrees with the assumption of the Poisson and Quasi-Poisson models. Negative binomial, however, addresses the over-dispersion in microbiome abundance data. I developed an edgeR pipeline to test the diffferential abundance of taxa between non-IBD and IBD patients, following the instruction in the book, Statistical analysis of microbiome with R.
 <img src="images/image_overdispersion_david.png?raw=false"/> 
 - **Statistical methods: negative binomial regression**
 - **R packages: edgeR**
