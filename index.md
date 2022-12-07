@@ -10,9 +10,11 @@
 
 ---
 ### Multivariate regression of microbiome composition and medical covariables using Human Microbiome Project-IBD dataset 
-[![](https://img.shields.io/badge/GitHub-View_on_GitHub-1182C3?logo=GitHub)](html/maaslin2-IBD-microbiome.html)
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-1182C3?logo=GitHub)](html/maaslin2-IBD-microbiome.html) 
+### To investigate differential abundance of gut microbiome in non-IBD and IBD patients, I build multivariate regression models including covariables. Considering repeated samples from the same participant, random-effect variables is added to the final model. Based on multiple test corrected p-values, I identify a few significant taxa associated with IBD status. The input data set originates from IBD database of Human Microbiome Project. 
 <img src="images/image_multi-regression_david.png?raw=false"/>
-
+- **Statistical methods: generalized linear mixed-effect regression; data transformation; multiple test correction**
+- **R packages: tidyverse; MaAsLin2**
 ---
 ### Models on zero-inflated microbiome (abundance) data
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/zero-inflated-models-mcirobiome.html) 
