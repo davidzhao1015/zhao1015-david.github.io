@@ -36,7 +36,7 @@
 
 ### Comparative genomics of gut and sourdough lactobacilli 
 [![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_phd_david.pdf)  
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/image_comparative-genomics.png?raw=false"/>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
