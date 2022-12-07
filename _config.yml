@@ -1,10 +1,19 @@
-title: Xin (David) Zhao # your name (or website title) here
-logo: "images/profile_grey_davidzhao.png?raw=false" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  Microbiome Data Scientist
+title: <p align="center"> Xin (David) Zhao </p>
+
+logo: "images/profile_grey_davidzhao.png?raw=true" 
+
+description:  
+  <p align="center">
+  <a href="pdf/resume.pdf">Resume</a> |
+  <a href="https://www.linkedin.com/in/davidxzhao/">LinkedIn</a> |
+  <a href="https://github.com/davidzhao1015">GitHub</a>
+  </p>
+  
+    <p align="justify">
+  I am pursing MS degree in Business Analytics at Simon Business School, University of Rochester.
   <br><br>
-  PhD in Food Microbiology
+  I am currently a Machine Learning Research Intern at Skim AI Technologies with a focus on NLP and Deep Learning research.
   <br><br>
-  <a href="https://www.linkedin.com/in/davidxzhao/">View My LinkedIn Profile</a> 
+  </p>
   
 theme: jekyll-theme-minimal
