@@ -46,7 +46,8 @@
 ## 🧬Genomic Bioinformatics
 ### Comparative genomics of gut and sourdough lactobacilli 
 [![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_phd_david.pdf)  
-#### 
+#### This is part of my Ph.D. research project. My colleagues and I worked on genomic adaption for strains from rodent guts to back-slopping sourdoughs. Using comparative genomics techniques, we identified particular genes under the "positive selection", including carbohydrate metabolism genes. In this sense, I developed the in-house bioinformatic pipeline to locate subtle genetic differences among strains commensal to rodents and sourdoughs. The project's discovery may help better explain genetic adaption for lactobacilli between different ecological niches and support start culture and probiotics development. 
 <img src="images/image_comparative-genomics.png?raw=false"/>
+- **Software: standalone BLAST toolkit; MEGA 5; MAUVE; KEGG server**
 
 
