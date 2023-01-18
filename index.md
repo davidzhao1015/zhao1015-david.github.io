@@ -33,10 +33,10 @@
 
 ---
 ### Correlation network analysis of gut microbiota with SparCC python module: considering compositionality inherent in microbiome data
-[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)]
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](https://davidzhao1015.github.io/sparcc-relative-corr2/#1_install_package)
 #### Relative abundance data of microbiome is compositional. Classical statistical associations methods, such as Pearson correlation or Spearman rank correlation, are invalid when analyzing compositional data and will lead to spurious correlations. Friedman and Alm developed an alternative method(Friedman and Alm 2012), SparCC to infer the correlation network between taxa from microbiome data, effectively dealing with compositionality. Experiments based on both simulated data and the real data (HMP) proves validity of SparCC.The project aims to demonstrate application of SparCC on a real microbiome dataset, using Python 3 and R language as well as visulaizatoin of the network. 
-<img src="images/image_overdispersion_david.png?raw=false"/> 
-- **Statistical methods: transformation, correlation**
+<img src="images/sparcc_git_profile.jpg"/> 
+- **Statistical methods: data transformation; correlation**
 - **R packages: SparCC, ggraph, igraph, corrplot**
 
 
