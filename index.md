@@ -39,6 +39,14 @@
 - **Statistical methods: data transformation; correlation**
 - **R packages: SparCC, ggraph, igraph, corrplot**
 
+---
+### Proportionality analysis of compositional microbiome data, using a real dataset
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](https://davidzhao1015.github.io/association_analysis_compositional/)
+#### One common goal of the microbiome study is to infer dependence relationship between taxa. Relative abundance data of microbiota is compositional data. The classic statistical methods (e.g., Pearson correlation and Spearman rank correlation), however, are invalid for compositional (microbiome) data and leads to spurious correlations.The review article, “Microbiome datasets are compositional: and this is not optional” (Gloor et al. 2017)summarized three valid statistical methods that deal with compositionality in microbiome relative abundance data to achieve reliable inferred correlation, including proportionality and SparCC, Spiec Easi. In this mini-project, I focused on illustrating proportionality analysis on the real microbiome data. Lovell and co-authors (Lovell et al. 2015) proposed the proportionality method for relative correlation, as a valid alternative to absolute correlation. In 2017, Quinn and his colleagues developed the R package, propr to implement the proportionality analysis (Thomas P. Quinn et al. 2017). Based on experiments on simulation datasets, proportionality is a precise indicator of absolute correlation, although sensitivity is limited (Thomas P. Quinn et al. 2017).
+<img src="images/sparcc_git_profile.jpg"/> 
+- **Statistical methods: data transformation; network**
+- **R packages: propr, ggraph, igraph, Hmisc** 
+
 
 ## 🤖Machine Learning 
 ### Classifier of childhood obesity trajectory based on infant fecal microbiome data 
