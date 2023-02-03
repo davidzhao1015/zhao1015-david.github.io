@@ -7,7 +7,7 @@
 $tag-background-color: hsl(0, 0%, 29%)
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <div class="tags">
-  <span class="tag">Linear Regression</span>
+  <span class=$tag-background-color:hsl(0, 0%, 29%) "tag">Linear Regression</span>
   <span class="tag">Logistic Regression</span>
   <span class="tag">Data Transformation</span>
   <span class="tag">Data Visulization</span>
