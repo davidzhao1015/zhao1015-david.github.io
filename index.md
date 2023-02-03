@@ -2,7 +2,7 @@
 ## 🩺Microbiome Epidemiology
 <img src="images/poster_screenshot_vitD_david.png?raw=false"/>
 
-<span style="font-family:Impact; font-size:18px; font-weight:bold; color:#201719">Multivariate regression between vitamin D use and infant gut microbiome, a cohort study</span> 
+<span style="font-family:Palatino; font-size:18px; font-weight:bold; color:#201719">Multivariate regression between vitamin D use and infant gut microbiome, a cohort study</span> 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <div class="tags">
@@ -12,7 +12,7 @@
   <span class="tag">R</span>
 </div>  
 
-<span style="font-family:Arial; font-size:13px; font-weight:normal; color:gray">Health Canada recommends that exclusively-breastfed newborns should receive sufficient vitamin D every day. In this academic project, my colleagues and I developed a generalized linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The model was based on a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively. By the Directed Acyclic Graph method, I identified a minimal set of confounder variables for the statistical modeling. This project resulted in a peer-reviewed paper in the journal, Biomolecules (IF = 6.06) in 2023.</span>
+<span style="font-family:Arial; font-size:13px; font-weight:normal; color:gray">Health Canada recommends that exclusively-breastfed newborns should receive sufficient vitamin D every day. In this academic project, my colleagues and I developed a generalized linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The project used a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively. By the Directed Acyclic Graph method, I identified a minimal set of confounder variables for the statistical modeling. This project resulted in a peer-reviewed paper in the journal, Biomolecules (IF = 6.06) in 2023.</span>
 
 [![](https://img.shields.io/badge/PDF-Open_research_poster-B44F99?logo=PDF)](pdf/Poster_vitD_microbiome_david.pdf) 
 [![](https://img.shields.io/badge/HTML-View%20artile-yellow)](https://www.mdpi.com/2218-273X/13/2/200))
