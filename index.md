@@ -1,11 +1,10 @@
 # Portfolio
 ## 🩺Microbiome Epidemiology
-### Infant vitamin D liquid formulations and fecal metabolomics and microbiome, a cohort study
-[![](https://img.shields.io/badge/PDF-Open_research_poster-B44F99?logo=PDF)](pdf/Poster_vitD_microbiome_david.pdf) 
-#### This project focuses on the impact of non-medicinal compounds in infant vitamin D liquids, glycerol, and 1,2-propanediol on fecal metabolomics and microbiome. I built multivariate linear and logistic models to test the hypothesis that vitamin D use is associated with fecal metabolites (glycerol and 1,2-propanediol). Considering the confounder effect, I identified potential covariables with a literature review and DAG method along with my advisor. The input metabolomic and microbiome data are readouts of nuclear magnetic resonance spectroscopy and 16S rRNA sequencing, respectively. The samples are collected from 575 infant participants in the Canadian cohort study CHILD. 
 <img src="images/poster_screenshot_vitD_david.png?raw=false"/>
-- **Statistical methods: multiple linear regression; multiple logistic regression; Chi-square test; unsupervised clustering; Spearman's rank correlation**
-- **R packages: tidyverse; Hmisc**
+### Modelling on relationship between infant vitamin D use and fecal metabolites and microbiota in a cohort study 
+[![](https://img.shields.io/badge/PDF-Open_research_poster-B44F99?logo=PDF)](pdf/Poster_vitD_microbiome_david.pdf) 
+**Linear Regression; Logistics Regression; DAG; Data Transformation; Data Visualization; R**
+#### Health Canada recommends that exclusively-breastfed newborns should receive sufficient vitamin D every day. Vitamin D supplements often contain non-medicinal compounds, such as glycerol and 1,2-propanediol. Therefore, in this academic project, my colleagues and I developed a generalized linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The model was based on a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively. By the Directed Acyclic Graph method, I identified a minimal set of confounder variables for the statistical modeling. This project resulted in a peer-reviewed paper in the journal, Biomolecules (IF = 6.06) in 2023. 
 
 ---
 ### Multivariate regression of microbiome composition and medical covariables using Human Microbiome Project-IBD dataset 
