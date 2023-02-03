@@ -1,6 +1,6 @@
 # Portfolio
 ## 🩺Microbiome Epidemiology
-<img src="images/poster_screenshot_vitD_david.png?raw=false"/>
+<img src="images/model_infant_vitd.jpg"/>
 
 <span style="font-family:Impact; font-size:18px; font-weight:normal; color:#201719">Multivariate regression between vitamin D use and infant gut microbiome, a cohort study</span> 
 
