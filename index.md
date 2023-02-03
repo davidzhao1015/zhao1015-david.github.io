@@ -2,7 +2,7 @@
 ## 🩺Microbiome Epidemiology
 <img src="images/poster_screenshot_vitD_david.png?raw=false"/>
 
-<span style="font-family:system-ui; font-size:12px; color:black">Modelling on relationship between infant vitamin D use and fecal metabolites and microbiota in a cohort study</span> 
+<span style="font-family:Impact; font-size:15px; color:black">Modelling on relationship between infant vitamin D use and fecal metabolites and microbiota in a cohort study</span> 
 
 <span style="font-family:Papyrus; font-size:4em; color:red">Cohort Study; Data Transformation; Linear Regression; Logistics Regression; DAG; Data Visualization; R</span>
 
