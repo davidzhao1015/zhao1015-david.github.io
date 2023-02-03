@@ -1,6 +1,5 @@
 # Portfolio
 ## 🩺Microbiome Epidemiology
-<img src="images/model_infant_vitd.jpg"/>
 
 <span style="font-family:Impact; font-size:18px; font-weight:normal; color:#201719">Multivariate regression between vitamin D use and infant gut microbiome, a cohort study</span> 
 
@@ -11,6 +10,8 @@
   <span class="tag">Data Reporting</span>
   <span class="tag">R</span>
 </div>  
+
+<img src="images/model_infant_vitd.jpg"/>
 
 <span style="font-family:Arial; font-size:13px; font-weight:normal; color:gray">Health Canada recommends that exclusively-breastfed newborns should receive sufficient vitamin D every day. In this academic project, my colleagues and I developed a generalized linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The project used a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively. By the Directed Acyclic Graph method, I identified a minimal set of confounder variables for the statistical modeling. This project resulted in a peer-reviewed paper in the journal, Biomolecules (IF = 6.06) in 2023.</span>
 
