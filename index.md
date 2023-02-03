@@ -4,7 +4,7 @@
 
 <span style="font-family:Georgia; font-size:18px; font-weight:bold; color:#201719">Multivariate regression between vitamin D use and infant gut microbiome, a cohort study</span> 
 
-$tag-color:#8A4D76
+$tag-color:$text #8A4D76;
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <span class="tag is-link">Linear Regression</span>
 
