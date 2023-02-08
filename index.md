@@ -49,7 +49,7 @@
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <div class="tags">
-  <span class="tag">Linear Regression</span>
+  <span class="tag is-warning">Linear Regression</span>
   <span class="tag">Logistic Regression</span>
   <span class="tag">Data Reporting</span>
   <span class="tag">R</span>
