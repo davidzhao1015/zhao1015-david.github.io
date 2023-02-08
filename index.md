@@ -1,26 +1,33 @@
 <style>
   .heading1{
-    color: ...;
+    color: black;
     font-weight:bold;
-    font-size: ...;
-    font-family: ...;
+    font-size: 200%;
+    font-family: Arial;
   }
   
   .heading2{
-    color: ...;
+    color: black;
     font-weight:bold;
-    font-size: ...;
-    font-family: ...;
+    font-size: 150%;
+    font-family: arial;
   }
   
   .heading3{
-    color: ...;
+    color: black;
     font-weight:bold;
-    font-size: ...;
-    font-family: ...;
+    font-size: 100%;
+    font-family: Verdana;
   }
  
-  p {line-height: 1.1em}
+  p {
+    line-height: 1.1em;
+    color:gray;
+    font-weight:normal;
+    font-size: 80%;
+    font-famiy:Georgia;
+  }
+  
 </style>
 
 # Portfolio
