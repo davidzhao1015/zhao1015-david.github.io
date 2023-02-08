@@ -18,9 +18,9 @@
   .heading3{
     color: black;
     font-weight:bold;
-    font-size: 120%;
+    font-size: 110%;
     font-family: Segoe UI;
-    line-height: 30px;
+    line-height: 24px;
   }
  
   p {
