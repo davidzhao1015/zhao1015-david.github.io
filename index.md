@@ -49,11 +49,11 @@
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <div class="tags">
-  <span class="tag is-warning is-light">Linear Regression</span>
-  <span class="tag is-warning is-light">Logistic Regression</span>
-  <span class="tag is-warning is-light">Cohort study</span>
-  <span class="tag is-warning is-light">Data Reporting</span>
-  <span class="tag is-warning is-light">R</span>
+  <span class="tag is-info">Linear Regression</span>
+  <span class="tag is-info">Logistic Regression</span>
+  <span class="tag is-info">Cohort study</span>
+  <span class="tag is-info">Data Reporting</span>
+  <span class="tag is-info">R</span>
 </div>  
 
 
