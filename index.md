@@ -1,22 +1,33 @@
 <style>
-  .green{
-    color: green;
-    font-weight: 700;
-    font-size: 30px
+  .heading1{
+    color: ...;
+    font-weight:bold;
+    font-size: ...;
+    font-family: ...;
   }
+  
+  .heading2{
+    color: ...;
+    font-weight:bold;
+    font-size: ...;
+    font-family: ...;
+  }
+  
+  .heading3{
+    color: ...;
+    font-weight:bold;
+    font-size: ...;
+    font-family: ...;
+  }
+  pre.CodeMirror-line {
+    line-height: 1.1 !important;
+}
 </style>
-
-<div class="green">
-  markdown css styles
-</div>
-
-
-
 
 # Portfolio
 
 ## 🩺Microbiome Epidemiology
----
+--- 
 
 <span style="font-family:Arial; font-size:18px; font-weight:normal; color:#201719">Multivariate regression between vitamin D use and infant gut microbiome, a cohort study</span> 
 
