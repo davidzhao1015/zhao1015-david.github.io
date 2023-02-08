@@ -18,7 +18,7 @@
   .heading3{
     color: black;
     font-weight:bold;
-    font-size: 100%;
+    font-size: 120%;
     font-family: Segoe UI;
     line-height: 30px;
   }
@@ -49,7 +49,7 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <div class="tags">
-  <span class="tag is-warning">Linear Regression</span>
+  <span class="tag">Linear Regression</span>
   <span class="tag">Logistic Regression</span>
   <span class="tag">Cohort study</span>
   <span class="tag">Data Reporting</span>
