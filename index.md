@@ -4,6 +4,7 @@
     font-weight:bold;
     font-size: 200%;
     font-family: Segoe UI;
+    line-height: 24px;
   }
   
   .heading2{
@@ -11,6 +12,7 @@
     font-weight:bold;
     font-size: 150%;
     font-family: Segoe UI;
+    line-height: 24px;
   }
   
   .heading3{
@@ -18,13 +20,14 @@
     font-weight:bold;
     font-size: 100%;
     font-family: Verdana;
+    line-height: 24px;
   }
  
   p {
     line-height: 22px; 
     color:#494949; 
     font-weight:normal;
-    font-size: 16px;
+    font-size: 80%;
     font-famiy:Georgia;
   }
   
