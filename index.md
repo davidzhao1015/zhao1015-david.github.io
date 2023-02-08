@@ -47,6 +47,10 @@
   Association between vitamin D use and infant gut microbiome, a cohort study
 </h3> 
 <br/>
+$text: #DB9124; 
+$tag-color: $text; 
+
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <div class="tags">
   <span class="tag", style="color:#ffdd57">Linear Regression</span>
