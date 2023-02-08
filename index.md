@@ -3,14 +3,14 @@
     color: black;
     font-weight:bold;
     font-size: 200%;
-    font-family: Arial;
+    font-family: Segoe UI;
   }
   
   .heading2{
     color: black;
     font-weight:bold;
     font-size: 150%;
-    font-family: arial;
+    font-family: Segoe UI;
   }
   
   .heading3{
@@ -21,18 +21,18 @@
   }
  
   p {
-    line-height: 1.1em;
-    color:gray;
+    line-height: 22px; 
+    color:#494949; 
     font-weight:normal;
-    font-size: 80%;
+    font-size: 16px;
     font-famiy:Georgia;
   }
   
 </style>
 
-# Portfolio
+# Portfolio {#identifier .heading1}
 
-## 🩺Microbiome Epidemiology
+## 🩺Microbiome Epidemiology {#identifier .heading2} 
 --- 
 
 <span style="font-family:Arial; font-size:18px; font-weight:normal; color:#201719">Multivariate regression between vitamin D use and infant gut microbiome, a cohort study</span> 
