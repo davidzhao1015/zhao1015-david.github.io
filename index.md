@@ -19,9 +19,8 @@
     font-size: ...;
     font-family: ...;
   }
-  pre.CodeMirror-line {
-    line-height: 1.1 !important;
-}
+ 
+  p {line-height: 1.1em}
 </style>
 
 # Portfolio
