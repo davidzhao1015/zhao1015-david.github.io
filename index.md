@@ -32,7 +32,7 @@
   }
   
 </style>
-
+<br/>
 <h1 id="identifier" class="heading1">
   Data Science Portfolio 
 </h1>
@@ -55,6 +55,21 @@
   <span class="tag">Data Reporting</span>
   <span class="tag">R</span>
 </div>  
+
+<div class="control">
+  <div class="tags has-addons">
+      <a class="tag is-warning is-light">Multivariate Regression</a>
+      <a class="tag is-delete"></a>
+  </div>
+</div>
+
+<div class="control">
+  <div class="tags has-addons">
+      <a class="tag is-warning is-light">Linear Regression</a>
+      <a class="tag is-delete"></a>
+  </div>
+</div>
+
 
 <img src="images/model_infant_vitd.jpg"/>
 
