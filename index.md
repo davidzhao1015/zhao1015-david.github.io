@@ -20,7 +20,7 @@
     font-weight:bold;
     font-size: 100%;
     font-family: Segoe UI;
-    line-height: 24px;
+    line-height: 30px;
   }
  
   p {
