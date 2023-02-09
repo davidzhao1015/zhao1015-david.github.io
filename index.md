@@ -88,14 +88,26 @@ To detect taxa differentially abundant in IBD patients, I built a generalized mi
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-1182C3?logo=GitHub)](html/maaslin2-IBD-microbiome.html) 
 
 ---
-### Models on zero-inflated microbiome (abundance) data
-[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/zero-inflated-models-mcirobiome.html) 
-#### Microbiome abundance data often contain excessive zero, which causes rejection of the assumption of traditional statistical models, such as Poisson regression. Fortunately, biostatisticians developed advanced models to address the issue, including zero-inflated Negative Binomial and zero-inflated Poisson, zero-hurdle Negative Binomial, and zero-hurdle Poisson models. I showcase the capability of such models in a case study with the IBD data set of the Human Microbiome Project, following the instruction in the book, Statistical analysis of microbiome with R. Using AIC and likelihood ratio test, I compare performance of candidate models. 
+<h3 id="identifier" class="heading3">
+Benchmarking statistical algorithms fitting zero-excessive metagenome data 
+</h3> 
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<div class="tags">
+  <span class="tag is-info">Zero-Inflation Model</span>
+  <span class="tag is-info">Zero-Hurdle Model</span>
+  <span class="tag is-info">R</span>
+</div>  
+
 <img src="images/image_zero-inflate_david.png?raw=false"/> 
-- **Statistical methods: zero-inflation Poisson/NB; zero-hurdle Poisson/NB**
-- **R packages: pscl; lmtest**
+<p id="identifier" class="p">
+Four statistical algorithms, zero-inflated negative binomial, zero-inflated Poisson, zero-hurdle negative binomial, and zero-hurdle Poisson have been proposed in the literature to treat excessive zeroness (i.e., zero inflation) in various datatype, including microbiome count data. I benchmarked the four algorithms fitting on microbiome data using a real-world dataset, iHMP. In addition, I evaluated the performance based on AIC and likelihood ratio test.  
+</p>
+<br/>
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/zero-inflated-models-mcirobiome.html) 
 
 ---
+
 ### Models on over-dispersed microbiome (abundance) data
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/overdisp-zeroinflate-model.html) 
 #### The microbiome is often over-dispersed other than zero-inflated, which disagrees with the assumption of the Poisson and Quasi-Poisson models. Negative binomial, however, addresses the over-dispersion in microbiome abundance data. I developed an edgeR pipeline to test the diffferential abundance of taxa between non-IBD and IBD patients, following the instruction in the book, Statistical analysis of microbiome with R.
