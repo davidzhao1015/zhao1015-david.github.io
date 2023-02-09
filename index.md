@@ -128,12 +128,26 @@ The microbiome is often over-dispersed and zero-inflated invalidating assumption
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/overdisp-zeroinflate-model.html) 
 
 ---
-### Correlation network analysis of gut microbiota with SparCC python module: considering compositionality inherent in microbiome data
+
+<h3 id="identifier" class="heading3">
+Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality  
+</h3> 
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<div class="tags">
+  <span class="tag is-info">Network Correlation</span>
+  <span class="tag is-info">SparCC</span>
+  <span class="tag is-info">ggraph</span>
+</div>  
+
+<img src="images/sparcc_git_profile.jpg"/>
+
+<p id="identifier" class="p">
+Friedman and Alm developed SparCC to infer the correlation network between taxa from microbiome data, effectively dealing with compositionality. This project aims to demonstrate application of SparCC on a microbiome dataset, using Python and R language. 
+</p>
+<br/>
+
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](https://davidzhao1015.github.io/sparcc-relative-corr2/#1_install_package)
-#### Relative abundance data of microbiome is compositional. Classical statistical associations methods, such as Pearson correlation or Spearman rank correlation, are invalid when analyzing compositional data and will lead to spurious correlations. Friedman and Alm developed an alternative method(Friedman and Alm 2012), SparCC to infer the correlation network between taxa from microbiome data, effectively dealing with compositionality. Experiments based on both simulated data and the real data (HMP) proves validity of SparCC.The project aims to demonstrate application of SparCC on a real microbiome dataset, using Python 3 and R language as well as visulaizatoin of the network. 
-<img src="images/sparcc_git_profile.jpg"/> 
-- **Statistical methods: data transformation; correlation**
-- **R packages: SparCC, ggraph, igraph, corrplot**
 
 ---
 ### Proportionality analysis of compositional microbiome data, using a real dataset
