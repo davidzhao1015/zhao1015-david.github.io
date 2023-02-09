@@ -36,13 +36,14 @@
 <h1 id="identifier" class="heading1">
   Data Science Portfolio 
 </h1>
-
+<br/>
 <br/>
 
 <h2 id="identifier" class="heading2">
   🩺Microbiome Epidemiology
 </h2>
 --- 
+
 <h3 id="identifier" class="heading3">
   Association between vitamin D use and infant gut microbiome, a cohort study
 </h3> 
@@ -56,8 +57,6 @@
   <span class="tag is-info">R</span>
 </div>  
 
-
-
 <img src="images/model_infant_vitd.jpg"/>
 
 <p id="identifier" class="p">
@@ -68,12 +67,25 @@ Health Canada recommends that exclusively-breastfed newborns should receive suff
 [![](https://img.shields.io/badge/HTML-View%20artile-yellow)](https://www.mdpi.com/2218-273X/13/2/200)
 
 ---
-### Multivariate regression of microbiome composition and medical covariables using Human Microbiome Project-IBD dataset 
-[![](https://img.shields.io/badge/GitHub-View_on_GitHub-1182C3?logo=GitHub)](html/maaslin2-IBD-microbiome.html) 
-#### I build multivariate mixed-effect regression models to investigate the differential abundance of the gut microbiome between non-IBD and IBD patients. As repeated samples exist, I include random-effect variables in the final model. Based on multiple test-corrected p-values, I identify a few significant taxa associated with IBD status. The input data set originates from the IBD database of the Human Microbiome Project. 
+<h3 id="identifier" class="heading3">
+Differential abundance analysis of gut microbiota between IBD versus healthy subjects using MaAsLin2 R package  
+</h3> 
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<div class="tags">
+  <span class="tag is-info">Mixed-Effect Modeling</span>
+  <span class="tag is-info">Data Transformation</span>
+  <span class="tag is-info">Multiple Test Correction</span>
+  <span class="tag is-info">MaAsLin2</span>
+</div>  
+  
 <img src="images/image_multi-regression_david.png?raw=false"/>
-- **Statistical methods: generalized linear mixed-effect regression; data transformation; multiple test correction**
-- **R packages: tidyverse; MaAsLin2**
+
+<p id="identifier" class="p">
+To detect taxa differentially abundant in IBD patients, I built a generalized mixed-effect model with MaAsLin2 package, considering repeated samples as a random-effect variable. The input metagenomic data and metadata were derived from the openly available IBD dataset of the integrated human microbiome project (iHMP). 
+</p>
+<br/>
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-1182C3?logo=GitHub)](html/maaslin2-IBD-microbiome.html) 
 
 ---
 ### Models on zero-inflated microbiome (abundance) data
