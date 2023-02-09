@@ -101,7 +101,7 @@ Benchmarking statistical algorithms fitting zero-excessive metagenome data
 
 <img src="images/image_zero-inflate_david.png?raw=false"/> 
 <p id="identifier" class="p">
-Four statistical algorithms, zero-inflated negative binomial, zero-inflated Poisson, zero-hurdle negative binomial, and zero-hurdle Poisson have been proposed in the literature to treat excessive zeroness (i.e., zero inflation) in various datatype, including microbiome count data. I benchmarked the four algorithms fitting on microbiome data using a real-world dataset, iHMP. In addition, I evaluated the performance based on AIC and likelihood ratio test.  
+Four statistical algorithms, zero-inflated negative binomial, zero-inflated Poisson, zero-hurdle negative binomial, and zero-hurdle Poisson have been proposed in the literature to treat excessive zeroness (i.e., zero inflation) in various datatype, including microbiome count data. I benchmarked the four algorithms using microbiome dataset from Human Microbiome Project. Furthermore, I evaluated the performance based on AIC and likelihood ratio test.  
 </p>
 <br/>
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/zero-inflated-models-mcirobiome.html) 
