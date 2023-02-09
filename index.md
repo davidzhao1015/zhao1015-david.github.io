@@ -107,12 +107,25 @@ Four statistical algorithms, zero-inflated negative binomial, zero-inflated Pois
 
 ---
 
-### Models on over-dispersed microbiome (abundance) data
-[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/overdisp-zeroinflate-model.html) 
-#### The microbiome is often over-dispersed other than zero-inflated, which disagrees with the assumption of the Poisson and Quasi-Poisson models. Negative binomial, however, addresses the over-dispersion in microbiome abundance data. I developed an edgeR pipeline to test the diffferential abundance of taxa between non-IBD and IBD patients, following the instruction in the book, Statistical analysis of microbiome with R.
+<h3 id="identifier" class="heading3">
+Differential abunance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-disperssion distribution
+</h3> 
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<div class="tags">
+  <span class="tag is-info">edgeR</span>
+  <span class="tag is-info">Negative Binomial</span>
+  <span class="tag is-info">Over-dispersion</span>
+</div>  
+
 <img src="images/image_overdispersion_david.png?raw=false"/> 
-- **Statistical methods: negative binomial regression**
-- **R packages: edgeR**
+
+<p id="identifier" class="p">
+The microbiome is often over-dispersed and zero-inflated invalidating assumptions of conventional statistical models. The negative binomial algorithm can address the over-dispersion issue inherent in microbiome count data. In this project, I detected differentially-abundant taxa in IBD patients using the edgeR package that implements negative binomial modeling. 
+</p>
+<br/>
+
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](html/overdisp-zeroinflate-model.html) 
 
 ---
 ### Correlation network analysis of gut microbiota with SparCC python module: considering compositionality inherent in microbiome data
