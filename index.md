@@ -166,9 +166,10 @@ Lovell and co-authors (Lovell et al. 2015) proposed the proportionality method f
 </p>
 <br/>
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](https://davidzhao1015.github.io/association_analysis_compositional/)
-<br/>
-<br/>
 
+--- 
+<br/>
+<br/>
 <h2 id="identifier" class="heading2">
 🤖Machine Learning 
 </h2>
