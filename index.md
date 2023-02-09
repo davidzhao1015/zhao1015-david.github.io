@@ -150,30 +150,74 @@ Friedman and Alm developed SparCC to infer the correlation network between taxa 
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](https://davidzhao1015.github.io/sparcc-relative-corr2/#1_install_package)
 
 ---
-### Proportionality analysis of compositional microbiome data, using a real dataset
-[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](https://davidzhao1015.github.io/association_analysis_compositional/)
-#### One common goal of the microbiome study is to infer dependence relationship between taxa. Relative abundance data of microbiota is compositional data. The classic statistical methods (e.g., Pearson correlation and Spearman rank correlation), however, are invalid for compositional (microbiome) data and leads to spurious correlations.The review article, “Microbiome datasets are compositional: and this is not optional” (Gloor et al. 2017)summarized three valid statistical methods that deal with compositionality in microbiome relative abundance data to achieve reliable inferred correlation, including proportionality and SparCC, Spiec Easi. In this mini-project, I focused on illustrating proportionality analysis on the real microbiome data. Lovell and co-authors (Lovell et al. 2015) proposed the proportionality method for relative correlation, as a valid alternative to absolute correlation. In 2017, Quinn and his colleagues developed the R package, propr to implement the proportionality analysis (Thomas P. Quinn et al. 2017). Based on experiments on simulation datasets, proportionality is a precise indicator of absolute correlation, although sensitivity is limited (Thomas P. Quinn et al. 2017).
+<h3 id="identifier" class="heading3">
+Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation 
+</h3> 
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<div class="tags">
+  <span class="tag is-info">Relative Correlation</span>
+  <span class="tag is-info">propr</span>
+</div> 
+
 <img src="images/propr_profile.jpg"/> 
-- **Statistical methods: data transformation; network**
-- **R packages: propr, ggraph, igraph, Hmisc** 
+<p id="identifier" class="p">
+Lovell and co-authors (Lovell et al. 2015) proposed the proportionality method for relative correlation, as a valid alternative to absolute correlation. This project, thus, focused on illustrating the proportionality analysis of microbiome data using propr package by Quiin. Consistenet with previous findings, I observed proportionality is a precise indicator of absolute correlation, although sensitivity is limited. 
+</p>
+<br/>
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](https://davidzhao1015.github.io/association_analysis_compositional/)
+<br/>
+<br/>
 
+<h2 id="identifier" class="heading2">
+🤖Machine Learning 
+</h2>
+--- 
+<h3 id="identifier" class="heading3">
+Microbiome-based machine learning models to predict childhood obesity trajectory at risk
+</h3> 
+<br/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<div class="tags">
+  <span class="tag is-info">Predictive Modelling</span>
+  <span class="tag is-info">Random Forest</span>
+  <span class="tag is-info">XGBoost</span>
+  <span class="tag is-info">caret</span>
+</div>  
 
-## 🤖Machine Learning 
-### Classifier of childhood obesity trajectory based on infant fecal microbiome data 
+<img src="images/fig3_proj1.png?raw=false"/>
+
+<p id="identifier" class="p">
+Knowing obesity risk earlier could help healthcare professionals manage children's weight more effectively. This project aims to use fecal microbiome data to predict future obesity risk with machine learning algorithms. Random Forest, XGBoost, GLMM, and Regularized Logistic classifiers were developed based on the data set of 2000+ infants. The optimal classifier achieved an AUC of 0.83 with a specificity of 73% and sensitivity of 85%. 
+</p>
+<br/>
 [![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_predict-child-obesity_davidzhao.pdf)
 [![](https://img.shields.io/badge/GitHub-View_on_GitHub-0476D0?logo=GitHub)](https://github.com/davidzhao1015/infant_microbiota_predict_obesity/blob/main/bmi_traj_pred_infant_microbiota.Rmd) 
-#### Knowing obesity risk earlier could help healthcare professionals manage children's weight more effectively. According to the literature review, microbiome composition and functions plays a vital role in overweight development in children. My team proposed including fecal microbiome data in the classifiers to devise a statistical prediction tool to predict future obesity risk. I trained Random Forest, XGBoost, GLMM, and regularized logistic classifiers based on fecal microbiome data of nearly 2000 infants. Based on the ROC-AUC of the validation procedure, I found GLMM-classifier the best with an AUC of 0.83, specificity of 73%, and sensitivity of 85% at the best threshold. In addition, I identified five microbial biomarkers at the genus level with good predictive ability. 
-<img src="images/fig3_proj1.png?raw=false"/>
-- **Statistical methods: Random Forest; XGBoost; Generalzied linear mixed model; regLog; cross-validation**
-- **R packages: caret**
 
 ---
+<br/>
+<br/>
+<h2 id="identifier" class="heading2">
+🧬Genomic Bioinformatics
+</h2>
+--- 
+<h3 id="identifier" class="heading3"> 
+Comparative genomics of Lactobacillus reuteri isolates from gut and sourdough ecosystems 
+</h3> 
+<br/>
 
-## 🧬Genomic Bioinformatics
-### Comparative genomics of gut and sourdough lactobacilli 
-[![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_phd_david.pdf)  
-#### This is part of my Ph.D. research project. My colleagues and I worked on genomic adaption for strains from rodent guts to back-slopping sourdoughs. Using comparative genomics techniques, we identified particular genes under the "positive selection", including carbohydrate metabolism genes. In this sense, I developed the in-house bioinformatic pipeline to locate subtle genetic differences among strains commensal to rodents and sourdoughs. The project's discovery may help better explain genetic adaption for lactobacilli between different ecological niches and support start culture and probiotics development. 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<div class="tags">
+  <span class="tag is-info">standalone BLAST toolkit</span>
+  <span class="tag is-info">MEGA 5</span>
+  <span class="tag is-info">MAUVE</span>
+  <span class="tag is-info">KEGG server</span>
+</div>
+
 <img src="images/image_comparative-genomics.png?raw=false"/>
-- **Software: standalone BLAST toolkit; MEGA 5; MAUVE; KEGG server**
 
-
+<p id="identifier" class="p">
+In this project, our team analyzed the genomic adaption of strains from guts to sourdoughs. Using comparative genomics, we pinpointed particular genes under positive selection. In addition, I developed the in-house bioinformatic pipeline, detecting DNA variations among strains. 
+</p>
+<br/>
+[![](https://img.shields.io/badge/PDF-Open_presentation_slides-C6466B?logo=PDF)](pdf/PPT_phd_david.pdf)  
