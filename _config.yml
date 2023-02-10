@@ -1,4 +1,4 @@
-title: <p align="center" sytle="color:blue; font-size:17; font-weight:bold"> Xin (David) Zhao </p>
+title: <p align="center" sytle="color:blue font-size:30px"> Xin (David) Zhao </p>
 
 logo: "images/profile_grey_davidzhao.png?raw=true" 
 
@@ -10,12 +10,12 @@ description:
   </p>
   
   <p align="left">
-  Data scientist specialized in microbial genomics and metagenomics for public health 
-  <br>
-  Postdoctoral Fellow in Microbiome Epidemiology at Department of Pediatrics, University of Alberta
-  <br>
-  PhD in Food Microbiolgy at Department of Food Science and Bioresources, University of Alberta 
-  <br>
+  Data scientist in public health and food fileds 
+  <br><br>
+  Postdoctoral Fellow at Department of Pediatrics, University of Alberta
+  <br><br>
+  PhD in Food Science at University of Alberta 
+  <br><br>
   </p>
   
 theme: jekyll-theme-minimal
