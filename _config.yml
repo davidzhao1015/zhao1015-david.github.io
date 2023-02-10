@@ -1,10 +1,10 @@
-</br>
+<br><br>
 
 title: <p align="center" style="color:black; font-size:28px">Xin (David) Zhao</p>
 
-</br>
+<br><br>
 
-logo: "images/profile_grey_davidzhao.png?raw=true" 
+logo: <img src="" alt="profileMe" width="500" height="500">
 
 description:  
   <p align="center">
@@ -13,7 +13,7 @@ description:
   <a href="https://github.com/davidzhao1015">GitHub</a>
   </p>
   
-  <p align="left">
+  <p align="left" style="color:gray">
   Data scientist in precision health
   <br><br>
   Food Microbiologist
