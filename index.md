@@ -16,7 +16,7 @@
   }
   
   .heading3{
-    color: black;
+    color: #6699CC;
     font-weight:bold;
     font-size: 110%;
     font-family: Segoe UI;
