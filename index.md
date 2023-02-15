@@ -41,7 +41,7 @@
 <br/>
 
 <h2 id="identifier" class="heading2">
-  🩺Microbiome Epidemiology
+  🦠Microbiome Epidemiology
 </h2>
 --- 
 
