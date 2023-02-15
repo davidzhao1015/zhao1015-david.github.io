@@ -72,7 +72,7 @@ Table of Contents
   <span class="tag is-info">R</span>
 </div>  
 
-<img src="images/model_infant_vitd.jpg"/>
+<img src="images/proj1_linearmod.png"/>
 
 <p id="identifier" class="p">
 In this project, my colleagues and I developed a multiple linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The project used a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively. 
