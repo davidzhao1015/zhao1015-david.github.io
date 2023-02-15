@@ -135,7 +135,7 @@ Differential analysis of microbiota data with over-dispersion using edgeR packag
   <span class="tag is-info">Over-dispersion</span>
 </div>  
 
-<img src="images/image_overdispersion_david.png?raw=false"/> 
+<img src="images/proj4_canva.png"/> 
 
 <p id="identifier" class="p">
 The microbiome is often over-dispersed and zero-inflated invalidating assumptions of conventional statistical models. The negative binomial algorithm can address the over-dispersion issue inherent in microbiome count data. In this project, I detected differentially-abundant taxa in IBD patients using the edgeR package that implements negative binomial modeling. 
