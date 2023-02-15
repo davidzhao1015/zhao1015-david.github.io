@@ -1,9 +1,13 @@
 ---
 toc: true
-toc_label: "Unique Title"
-toc_icon: "heart"  
+toc_label: "Table of Contents"
 ---
 
+#container {
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
+}
 
 <style>
   .heading1{
