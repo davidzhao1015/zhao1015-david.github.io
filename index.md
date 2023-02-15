@@ -33,15 +33,17 @@
   
 </style>
 
----
+----
+{:.no_toc}
+
 - TOC
 {:toc}
 
+----
 
----
 <br/>
 <h1 id="identifier" class="heading1">
-  Data Science Portfolio 
+  Data Science Portfolio v
 </h1>
 <br/>
 <br/>
