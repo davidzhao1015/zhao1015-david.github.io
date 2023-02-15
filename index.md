@@ -43,14 +43,14 @@ Table of Contents
 </h3> 
 <br/>
 1. [Microbiome Epidemiology](#topic1)<br>
-1.1 [Association between vitamin D use and infant gut microbiome, a cohort study](#subtopic1)<br>
-   1.2 [Differential abundance analysis of gut microbiota between IBD versus healthy subjects using MaAsLin2 R package](#subtopic2)
-   1.3 [Benchmarking statistical algorithms fitting zero-excessive metagenome data](#substopic3)
-   1.4 [Differential abunance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-disperssion distribution](#substopic4)
-   1.5 [Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality](#substopic5)
-   1.6 [Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation](#substopic6)
-2. [Machine Learning](#topic2)
-3. [Genomic Bioinformatics](#topic3)
+   1.1 [Association between vitamin D use and infant gut microbiome, a cohort study](#subtopic1)<br>
+   1.2 [Differential abundance analysis of gut microbiota between IBD versus healthy subjects using MaAsLin2 R package](#subtopic2)<br>
+   1.3 [Benchmarking statistical algorithms fitting zero-excessive metagenome data](#substopic3)<br>
+   1.4 [Differential abunance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-disperssion distribution](#substopic4)<br>
+   1.5 [Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality](#substopic5)<br>
+   1.6 [Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation](#substopic6)<br>
+2. [Machine Learning](#topic2)<br>
+3. [Genomic Bioinformatics](#topic3)<br>
 <br/>
 <br/>
 <h2 id="identifier" class="heading2">
@@ -59,7 +59,7 @@ Table of Contents
 --- 
 
 <h3 id="identifier" class="heading3">
-  Association between vitamin D use and infant gut microbiome, a cohort study
+  Association between vitamin D use and infant gut microbiome, a cohort study <a name="subtopic1"></a>
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -82,7 +82,7 @@ Health Canada recommends that exclusively-breastfed newborns should receive suff
 
 ---
 <h3 id="identifier" class="heading3">
-Differential abundance analysis of gut microbiota between IBD versus healthy subjects using MaAsLin2 R package  
+Differential abundance analysis of gut microbiota between IBD versus healthy subjects using MaAsLin2 R package <a name="subtopic2"></a> 
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -103,7 +103,7 @@ To detect taxa differentially abundant in IBD patients, I built a generalized mi
 
 ---
 <h3 id="identifier" class="heading3">
-Benchmarking statistical algorithms fitting zero-excessive metagenome data 
+Benchmarking statistical algorithms fitting zero-excessive metagenome data <a name="subtopic3"></a>
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -122,7 +122,7 @@ Four statistical algorithms, zero-inflated negative binomial, zero-inflated Pois
 ---
 
 <h3 id="identifier" class="heading3">
-Differential abunance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-disperssion distribution
+Differential abunance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-disperssion distribution <a name="subtopic4"></a>
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -144,7 +144,7 @@ The microbiome is often over-dispersed and zero-inflated invalidating assumption
 ---
 
 <h3 id="identifier" class="heading3">
-Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality  
+Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality <a name="subtopic5"></a> 
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -165,7 +165,7 @@ Friedman and Alm developed SparCC to infer the correlation network between taxa 
 
 ---
 <h3 id="identifier" class="heading3">
-Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation 
+Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation <a name="subtopic6"></a> 
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -185,7 +185,7 @@ Lovell and co-authors (Lovell et al. 2015) proposed the proportionality method f
 <br/>
 <br/>
 <h2 id="identifier" class="heading2">
-🤖Machine Learning 
+🤖Machine Learning <a name="topic2"></a> 
 </h2>
 --- 
 <h3 id="identifier" class="heading3">
@@ -213,7 +213,7 @@ Knowing obesity risk earlier could help healthcare professionals manage children
 <br/>
 <br/>
 <h2 id="identifier" class="heading2">
-🧬Genomic Bioinformatics
+🧬Genomic Bioinformatics  <a name="topic3"></a> 
 </h2>
 --- 
 <h3 id="identifier" class="heading3"> 
