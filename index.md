@@ -32,22 +32,13 @@
   }
   
 </style>
+
 <br/>
 <h1 id="identifier" class="heading1">
   Data science portfolio1
 </h1>
 <br/>
 <br/>
-
----- 
-{:.no_toc}
-
-- TOC
-{:toc}
-
-----
-
-
 
 <h2 id="identifier" class="heading2">
   🩺Microbiome Epidemiology
