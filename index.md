@@ -94,7 +94,7 @@ Gut microbiota variations between IBD versus healthy adults<a name="subtopic2"><
   <span class="tag is-info">MaAsLin2</span>
 </div>  
   
-<img src="images/image_multi-regression_david.png?raw=false"/>
+<img src="images/proj2_canva.png"/>
 
 <p id="identifier" class="p">
 To detect taxa differentially abundant in IBD patients, I built a generalized mixed-effect model with MaAsLin2 package, considering repeated samples as a random-effect variable. The input metagenomic data and metadata were derived from the openly available IBD dataset of the integrated human microbiome project (iHMP). 
