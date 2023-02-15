@@ -32,6 +32,13 @@
   }
   
 </style>
+
+---
+- TOC
+{:toc}
+
+
+---
 <br/>
 <h1 id="identifier" class="heading1">
   Data Science Portfolio 
