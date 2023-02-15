@@ -1,3 +1,10 @@
+---
+toc: true
+toc_label: "Unique Title"
+toc_icon: "heart"  
+---
+
+
 <style>
   .heading1{
     color: black;
