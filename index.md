@@ -32,15 +32,17 @@
   }
   
 </style>
-# Table of Contents
-
-1. [Microbiome Epidemiology](#Microbiome Epidemiology)
-2. [Machine Learning](#Machine Learning)
-3. [Genomic Bioinformatics](#Genomic Bioinformatics)
 <br/>
 <h1 id="identifier" class="heading1">
   Data Science Portfolio 11
 </h1>
+<br/>
+<br/>
+# Table of Contents
+1. [Microbiome Epidemiology](#Microbiome Epidemiology)
+   1. [Association between vitamin D use and infant gut microbiome, a cohort study](#Association between vitamin D use and infant gut microbiome, a cohort study)
+3. [Machine Learning](#Machine Learning)
+4. [Genomic Bioinformatics](#Genomic Bioinformatics)
 <br/>
 <br/>
 <h2 id="identifier" class="heading2">
