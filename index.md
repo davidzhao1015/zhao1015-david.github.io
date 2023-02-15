@@ -45,7 +45,7 @@ Table of Contents
   1.1 [Impact of vitamin D supplements on infant gut microbiome](#subtopic1)<br>
   1.2 [Gut microbiota variations between IBD versus healthy adults](#subtopic2)<br>
   1.3 [Benchmarking algorithms on zero-excessive metagenome data](#subtopic3)<br>
-  1.4 [Differential analysis of microbiota data with over-dispersion using edgeR package](#subtopic4)<br>
+  1.4 [Differential analysis of microbiota data with over-dispersion using edgeR and DESeq2](#subtopic4)<br>
   1.5 [Correlation network development for gut microbial taxa using SparCC](#subtopic5)<br>
   1.6 [Proportionality of gut microbiome to mitigrate spurious correlation](#subtopic6)<br>
 2. [Machine Learning](#topic2)<br>
@@ -125,7 +125,7 @@ Four statistical algorithms, zero-inflated negative binomial, zero-inflated Pois
 ---
 
 <h3 id="identifier" class="heading3">
-Differential analysis of microbiota data with over-dispersion using edgeR package<a name="subtopic4"></a>
+Differential analysis of microbiota data with over-dispersion using edgeR and DESeq2<a name="subtopic4"></a>
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -135,7 +135,7 @@ Differential analysis of microbiota data with over-dispersion using edgeR packag
   <span class="tag is-info">Over-dispersion</span>
 </div>  
 
-<img src="images/proj4_canva.png"/> 
+<img src="images/proj4_canva2.png"/> 
 
 <p id="identifier" class="p">
 The microbiome is often over-dispersed and zero-inflated invalidating assumptions of conventional statistical models. The negative binomial algorithm can address the over-dispersion issue inherent in microbiome count data. In this project, I detected differentially-abundant taxa in IBD patients using the edgeR package that implements negative binomial modeling. 
