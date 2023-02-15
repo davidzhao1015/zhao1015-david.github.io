@@ -32,8 +32,14 @@
   }
   
 </style>
+<br/>
+<h1 id="identifier" class="heading1">
+  Data science portfolio1
+</h1>
+<br/>
+<br/>
 
-----
+---- 
 {:.no_toc}
 
 - TOC
@@ -41,12 +47,7 @@
 
 ----
 
-<br/>
-<h1 id="identifier" class="heading1">
-  Data Science Portfolio vv
-</h1>
-<br/>
-<br/>
+
 
 <h2 id="identifier" class="heading2">
   🩺Microbiome Epidemiology
