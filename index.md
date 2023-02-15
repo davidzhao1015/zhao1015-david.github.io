@@ -32,10 +32,11 @@
   }
   
 </style>
-{:.no_toc}
+# Table of Contents
 
-- TOC
-{:toc}
+1. [Microbiome Epidemiology](#Microbiome Epidemiology)
+2. [Machine Learning](#Machine Learning)
+3. [Genomic Bioinformatics](#Genomic Bioinformatics)
 <br/>
 <h1 id="identifier" class="heading1">
   Data Science Portfolio 11
