@@ -6,11 +6,10 @@ description:
   <a href="https://www.linkedin.com/in/davidxzhao/">LinkedIn</a> |
   <a href="https://github.com/davidzhao1015">GitHub</a>
   </p>
-  </br>
 <ul>
-<li>Health Data Scientist</li>
-<li>Microbiome Researcher</li>
-<li>Food Microbiologist</li>
+  <li>Health Data Scientist</li>
+  <li>Microbiome Researcher</li>
+  <li>Food Microbiologist</li>
 </ul>
     
 theme: jekyll-theme-minimal
