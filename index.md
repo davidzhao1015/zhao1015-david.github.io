@@ -32,14 +32,12 @@
   }
   
 </style>
-
 <br/>
 <h1 id="identifier" class="heading1">
   Data Science Portfolio 11
 </h1>
 <br/>
 <br/>
-
 <h2 id="identifier" class="heading2">
   🦠Microbiome Epidemiology
 </h2>
