@@ -50,7 +50,9 @@ Table of Contents
   1.5 [Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality](#subtopic5)<br>
   1.6 [Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation](#subtopic6)<br>
 2. [Machine Learning](#topic2)<br>
+  2.1 [Microbiome-based machine learning models to predict childhood obesity trajectory at risk](#subtopic7)<br>
 3. [Genomic Bioinformatics](#topic3)<br>
+  3.1 [Comparative genomics of Lactobacillus reuteri isolates from gut and sourdough ecosystems](#subtopic8)(br)
 <br/>
 <br/>
 <h2 id="identifier" class="heading2">
@@ -103,7 +105,7 @@ To detect taxa differentially abundant in IBD patients, I built a generalized mi
 
 ---
 <h3 id="identifier" class="heading3">
-Benchmarking statistical algorithms fitting zero-excessive metagenome data <a name="subtopic3"></a>
+Benchmarking statistical algorithms fitting zero-excessive metagenome data<a name="subtopic3"></a>
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -122,7 +124,7 @@ Four statistical algorithms, zero-inflated negative binomial, zero-inflated Pois
 ---
 
 <h3 id="identifier" class="heading3">
-Differential abunance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-disperssion distribution <a name="subtopic4"></a>
+Differential abunance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-disperssion distribution<a name="subtopic4"></a>
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -144,7 +146,7 @@ The microbiome is often over-dispersed and zero-inflated invalidating assumption
 ---
 
 <h3 id="identifier" class="heading3">
-Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality <a name="subtopic5"></a> 
+Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality<a name="subtopic5"></a> 
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -165,7 +167,7 @@ Friedman and Alm developed SparCC to infer the correlation network between taxa 
 
 ---
 <h3 id="identifier" class="heading3">
-Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation <a name="subtopic6"></a> 
+Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation<a name="subtopic6"></a> 
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -189,7 +191,7 @@ Lovell and co-authors (Lovell et al. 2015) proposed the proportionality method f
 </h2>
 --- 
 <h3 id="identifier" class="heading3">
-Microbiome-based machine learning models to predict childhood obesity trajectory at risk
+Microbiome-based machine learning models to predict childhood obesity trajectory at risk<a name="subtopic7"></a> 
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -217,7 +219,7 @@ Knowing obesity risk earlier could help healthcare professionals manage children
 </h2>
 --- 
 <h3 id="identifier" class="heading3"> 
-Comparative genomics of Lactobacillus reuteri isolates from gut and sourdough ecosystems 
+Comparative genomics of Lactobacillus reuteri isolates from gut and sourdough ecosystems<a name="subtopic8"></a>  
 </h3> 
 <br/>
 
