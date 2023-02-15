@@ -37,9 +37,19 @@
 <meta http-equiv='expires' content='0'> 
 <meta http-equiv='pragma' content='no-cache'>
 
+----
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
 <br/>
 <h1 id="identifier" class="heading1">
-  Data Science Portfolio -
+  Data Science Portfolio 
 </h1>
 <br/>
 <br/>
