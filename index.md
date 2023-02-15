@@ -16,7 +16,7 @@
   }
   
   .heading3{
-    color: #6699cc;
+    color: black;
     font-weight:bold;
     font-size: 110%;
     font-family: Segoe UI;
@@ -41,7 +41,6 @@
 <h3 id="identifier" class="heading3">
 Table of Contents
 </h3> 
-<br/>
 1. [Microbiome Epidemiology](#topic1)<br>
   1.1 [Impact of vitamin D supplements on infant gut microbiome](#subtopic1)<br>
   1.2 [Gut microbiota variations between IBD versus healthy adults](#subtopic2)<br>
@@ -76,7 +75,7 @@ Table of Contents
 <img src="images/model_infant_vitd.jpg"/>
 
 <p id="identifier" class="p">
-Health Canada recommends that exclusively-breastfed newborns should receive sufficient vitamin D every day. In this academic project, my colleagues and I developed a generalized linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The project used a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively. By the Directed Acyclic Graph method, I identified a minimal set of confounder variables for the statistical modeling. This project resulted in a peer-reviewed paper in the journal, Biomolecules (IF = 6.06) in 2023.
+In this project, my colleagues and I developed a multiple linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The project used a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively. 
 </p>
 <br/>
 [![](https://img.shields.io/badge/PDF-Open_research_poster-B44F99?logo=PDF)](pdf/Poster_vitD_microbiome_david.pdf) 
