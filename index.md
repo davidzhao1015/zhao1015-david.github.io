@@ -45,10 +45,10 @@ Table of Contents
 1. [Microbiome Epidemiology](#topic1)<br>
   1.1 [Association between vitamin D use and infant gut microbiome, a cohort study](#subtopic1)<br>
   1.2 [Differential abundance analysis of gut microbiota between IBD versus healthy subjects using MaAsLin2 R package](#subtopic2)<br>
-  1.3 [Benchmarking statistical algorithms fitting zero-excessive metagenome data](#substopic3)<br>
-  1.4 [Differential abundance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-dispersion distribution](#substopic4)<br>
-  1.5 [Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality](#substopic5)<br>
-  1.6 [Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation](#substopic6)<br>
+  1.3 [Benchmarking statistical algorithms fitting zero-excessive metagenome data](#subtopic3)<br>
+  1.4 [Differential abundance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-dispersion distribution](#subtopic4)<br>
+  1.5 [Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality](#subtopic5)<br>
+  1.6 [Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation](#subtopic6)<br>
 2. [Machine Learning](#topic2)<br>
 3. [Genomic Bioinformatics](#topic3)<br>
 <br/>
