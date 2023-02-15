@@ -43,7 +43,7 @@ Table of Contents
 </h3> 
 <br/>
 1. [Microbiome Epidemiology](#topic1)<br>
-   1.1 [Association between vitamin D use and infant gut microbiome, a cohort study](#subtopic1)<br>
+- [Association between vitamin D use and infant gut microbiome, a cohort study](#subtopic1)<br>
    1.2 [Differential abundance analysis of gut microbiota between IBD versus healthy subjects using MaAsLin2 R package](#subtopic2)
    1.3 [Benchmarking statistical algorithms fitting zero-excessive metagenome data](#substopic3)
    1.4 [Differential abunance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-disperssion distribution](#substopic4)
