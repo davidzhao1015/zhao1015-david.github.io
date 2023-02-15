@@ -43,16 +43,16 @@ Table of Contents
 </h3> 
 <br/>
 1. [Microbiome Epidemiology](#topic1)<br>
-  1.1 [Association between vitamin D use and infant gut microbiome, a cohort study](#subtopic1)<br>
-  1.2 [Differential abundance analysis of gut microbiota between IBD versus healthy subjects using MaAsLin2 R package](#subtopic2)<br>
-  1.3 [Benchmarking statistical algorithms fitting zero-excessive metagenome data](#subtopic3)<br>
-  1.4 [Differential abundance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-dispersion distribution](#subtopic4)<br>
-  1.5 [Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality](#subtopic5)<br>
-  1.6 [Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation](#subtopic6)<br>
+  1.1 [Impact of vitamin D supplements on infant gut microbiome](#subtopic1)<br>
+  1.2 [Gut microbiota variations between IBD versus healthy adults](#subtopic2)<br>
+  1.3 [Benchmarking algorithms on zero-excessive metagenome data](#subtopic3)<br>
+  1.4 [Differential analysis of microbiota data with over-dispersion using edgeR package](#subtopic4)<br>
+  1.5 [Correlation network development for gut microbial taxa using SparCC](#subtopic5)<br>
+  1.6 [Proportionality of gut microbiome to mitigrate spurious correlation](#subtopic6)<br>
 2. [Machine Learning](#topic2)<br>
-  2.1 [Microbiome-based machine learning models to predict childhood obesity trajectory at risk](#subtopic7)<br>
+  2.1 [Microbiome-based machine learning models to predict childhood obesity trajectory](#subtopic7)<br>
 3. [Genomic Bioinformatics](#topic3)<br>
-  3.1 [Comparative genomics of Lactobacillus reuteri isolates from gut and sourdough ecosystems](#subtopic8)(br)
+  3.1 [Comparative genomics of Lactobacillus reuteri isolates from gut and sourdough](#subtopic8)<br>
 <br/>
 <br/>
 <h2 id="identifier" class="heading2">
@@ -61,7 +61,7 @@ Table of Contents
 --- 
 
 <h3 id="identifier" class="heading3">
-  Association between vitamin D use and infant gut microbiome, a cohort study <a name="subtopic1"></a>
+  Impact of vitamin D supplements on infant gut microbiome<a name="subtopic1"></a>
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -84,7 +84,7 @@ Health Canada recommends that exclusively-breastfed newborns should receive suff
 
 ---
 <h3 id="identifier" class="heading3">
-Differential abundance analysis of gut microbiota between IBD versus healthy subjects using MaAsLin2 R package <a name="subtopic2"></a> 
+Gut microbiota variations between IBD versus healthy adults<a name="subtopic2"></a> 
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -105,7 +105,7 @@ To detect taxa differentially abundant in IBD patients, I built a generalized mi
 
 ---
 <h3 id="identifier" class="heading3">
-Benchmarking statistical algorithms fitting zero-excessive metagenome data<a name="subtopic3"></a>
+Benchmarking algorithms on zero-excessive metagenome data<a name="subtopic3"></a>
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -124,7 +124,7 @@ Four statistical algorithms, zero-inflated negative binomial, zero-inflated Pois
 ---
 
 <h3 id="identifier" class="heading3">
-Differential abunance analysis of gut microbiota in IBD versus healthy people with edgeR package, considering over-disperssion distribution<a name="subtopic4"></a>
+Differential analysis of microbiota data with over-dispersion using edgeR package<a name="subtopic4"></a>
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -146,7 +146,7 @@ The microbiome is often over-dispersed and zero-inflated invalidating assumption
 ---
 
 <h3 id="identifier" class="heading3">
-Inferring correlation network between gut microbial taxa using SparCC (python) module to deal with compositionality<a name="subtopic5"></a> 
+Correlation network development for gut microbial taxa using SparCC<a name="subtopic5"></a> 
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -167,7 +167,7 @@ Friedman and Alm developed SparCC to infer the correlation network between taxa 
 
 ---
 <h3 id="identifier" class="heading3">
-Proportionality analysis of microbiome relative abundance using propr R package, mitigraing spurious correlation<a name="subtopic6"></a> 
+Proportionality of gut microbiome to mitigrate spurious correlation<a name="subtopic6"></a> 
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -191,7 +191,7 @@ Lovell and co-authors (Lovell et al. 2015) proposed the proportionality method f
 </h2>
 --- 
 <h3 id="identifier" class="heading3">
-Microbiome-based machine learning models to predict childhood obesity trajectory at risk<a name="subtopic7"></a> 
+Microbiome-based machine learning models to predict childhood obesity trajectory<a name="subtopic7"></a> 
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -219,7 +219,7 @@ Knowing obesity risk earlier could help healthcare professionals manage children
 </h2>
 --- 
 <h3 id="identifier" class="heading3"> 
-Comparative genomics of Lactobacillus reuteri isolates from gut and sourdough ecosystems<a name="subtopic8"></a>  
+Comparative genomics of Lactobacillus reuteri isolates from gut and sourdough<a name="subtopic8"></a>  
 </h3> 
 <br/>
 
