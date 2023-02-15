@@ -39,7 +39,7 @@
 
 <br/>
 <h1 id="identifier" class="heading1">
-  Data science portfolio1
+  Data Science Portfolio
 </h1>
 <br/>
 <br/>
