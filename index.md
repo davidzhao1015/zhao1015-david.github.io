@@ -67,36 +67,29 @@ Table of Contents
 <div class="field is-grouped is-grouped-multiline">
   <div class="control">
     <div class="tags has-addons">
-      <a class="tag is-link">Linear Regression</a>
-      <a class="tag is-delete"></a>
+      <a class="tag is-link is-small">Linear Regression</a>
+      <a class="tag is-delete is-small"></a>
     </div>
   </div>
 
   <div class="control">
     <div class="tags has-addons">
-      <a class="tag is-link">Logistic Regression</a>
-      <a class="tag is-delete"></a>
+      <a class="tag is-link is-small">Logistic Regression</a>
+      <a class="tag is-delete is-small"></a>
     </div>
   </div>
 
   <div class="control">
     <div class="tags has-addons">
-      <a class="tag is-link">Cohort study</a>
-      <a class="tag is-delete"></a>
+      <a class="tag is-link is-small">Cohort study</a>
+      <a class="tag is-delete is-small"></a>
     </div>
   </div>
 
   <div class="control">
     <div class="tags has-addons">
-      <a class="tag is-link">Data Reporting</a>
-      <a class="tag is-delete"></a>
-    </div>
-  </div>
-
-  <div class="control">
-    <div class="tags has-addons">
-      <a class="tag is-link">R</a>
-      <a class="tag is-delete"></a>
+      <a class="tag is-link is-small">R</a>
+      <a class="tag is-delete is-small"></a>
     </div>
   </div>
   </div>
