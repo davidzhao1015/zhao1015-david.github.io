@@ -1,5 +1,5 @@
-title: <h1>Xin (David) Zhao</h1>
-logo: images/lightblue.png
+title: <p align="center" margin-top:100px style="color:black; font-size:28px; font-family:arial">Xin (David) Zhao</p>
+logo: "images/lightblue.png?raw=true" 
 description:  
   <p align="center">
   <a href="pdf/CV_APL_XinZhao.pdf">Resume</a> |
@@ -11,4 +11,5 @@ description:
     <li>Microbiome Researcher</li>
     <li>Food Microbiologist</li>
  </ul>
+    
 theme: jekyll-theme-minimal
