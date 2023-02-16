@@ -64,13 +64,42 @@ Table of Contents
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<div class="tags">
-  <span class="tag is-info">Linear Regression</span>
-  <span class="tag is-info">Logistic Regression</span>
-  <span class="tag is-info">Cohort study</span>
-  <span class="tag is-info">Data Reporting</span>
-  <span class="tag is-info">R</span>
-</div>  
+<div class="field is-grouped is-grouped-multiline">
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link">Linear Regression</a>
+      <a class="tag is-delete"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link">Logistic Regression</a>
+      <a class="tag is-delete"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link">Cohort study</a>
+      <a class="tag is-delete"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link">Data Reporting</a>
+      <a class="tag is-delete"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link">R</a>
+      <a class="tag is-delete"></a>
+    </div>
+  </div>
+  </div>
 
 <img src="images/proj1_canva2.png"/>
 
