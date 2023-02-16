@@ -109,13 +109,36 @@ Gut microbiota variations between IBD versus healthy adults<a name="subtopic2"><
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<div class="tags">
-  <span class="tag is-info">Mixed-Effect Modeling</span>
-  <span class="tag is-info">Data Transformation</span>
-  <span class="tag is-info">Multiple Test Correction</span>
-  <span class="tag is-info">MaAsLin2</span>
-</div>  
-  
+<div class="field is-grouped is-grouped-multiline">
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">Mixed-Effect Model</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">Data Transformation</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">Multiple Test Correction</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">MaAsLin2</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+  </div>
+
 <img src="images/proj2_canva.png"/>
 
 <p id="identifier" class="p">
@@ -130,11 +153,28 @@ Benchmarking algorithms on zero-excessive metagenome data<a name="subtopic3"></a
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<div class="tags">
-  <span class="tag is-info">Zero-Inflation Model</span>
-  <span class="tag is-info">Zero-Hurdle Model</span>
-  <span class="tag is-info">R</span>
-</div>  
+<div class="field is-grouped is-grouped-multiline">
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">Zero-Inflation Model</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">Zero-Hurdle Model</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">Negative Binomial Model</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+ </div>
 
 <img src="images/proj3_canva.png"/>
 
@@ -151,11 +191,21 @@ Differential analysis of microbiota data with over-dispersion using edgeR and DE
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<div class="tags">
-  <span class="tag is-info">edgeR</span>
-  <span class="tag is-info">Negative Binomial</span>
-  <span class="tag is-info">Over-dispersion</span>
-</div>  
+<div class="field is-grouped is-grouped-multiline">
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">edgeR</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">DESeq2</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+</div>
 
 <img src="images/proj4_canva2.png"/> 
 
@@ -173,11 +223,21 @@ Correlation network development for gut microbial taxa using SparCC<a name="subt
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<div class="tags">
-  <span class="tag is-info">Network Correlation</span>
-  <span class="tag is-info">SparCC</span>
-  <span class="tag is-info">ggraph</span>
-</div>  
+<div class="field is-grouped is-grouped-multiline">
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">Network</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">SparCC</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+</div>
 
 <img src="images/sparcc_git_profile.jpg"/>
 
@@ -194,10 +254,21 @@ Proportionality of gut microbiome to mitigrate spurious correlation<a name="subt
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<div class="tags">
-  <span class="tag is-info">Relative Correlation</span>
-  <span class="tag is-info">propr</span>
-</div> 
+<div class="field is-grouped is-grouped-multiline">
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">Relative Correlation</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">propr</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+</div>
 
 <img src="images/proj6_canva.png"/> 
 <p id="identifier" class="p">
@@ -218,12 +289,35 @@ Microbiome-based machine learning models to predict childhood obesity trajectory
 </h3> 
 <br/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<div class="tags">
-  <span class="tag is-info">Predictive Modelling</span>
-  <span class="tag is-info">Random Forest</span>
-  <span class="tag is-info">XGBoost</span>
-  <span class="tag is-info">caret</span>
-</div>  
+<div class="field is-grouped is-grouped-multiline">
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">Predictive Modelling</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">Random Forest</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+  
+   <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">XGBoost</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+  
+   <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">caret</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+</div>
 
 <img src="images/fig3_proj1.png?raw=false"/>
 
@@ -247,12 +341,35 @@ Comparative genomics of Lactobacillus reuteri isolates from gut and sourdough<a 
 <br/>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<div class="tags">
-  <span class="tag is-info">standalone BLAST toolkit</span>
-  <span class="tag is-info">MEGA 5</span>
-  <span class="tag is-info">MAUVE</span>
-  <span class="tag is-info">KEGG server</span>
-</div>
+<div class="field is-grouped is-grouped-multiline">
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">BLAST</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+
+  <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">MEGA 5</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+  
+   <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">MAUVE</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+  
+   <div class="control">
+    <div class="tags has-addons">
+      <a class="tag is-link is-small">KEGG</a>
+      <a class="tag is-delete is-small"></a>
+    </div>
+  </div>
+ </div>
 
 <img src="images/image_comparative-genomics.png?raw=false"/>
 
