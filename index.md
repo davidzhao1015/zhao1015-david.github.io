@@ -177,7 +177,7 @@ Proportionality of gut microbiome to mitigrate spurious correlation<a name="subt
   <span class="tag is-info">propr</span>
 </div> 
 
-<img src="images/propr_profile.jpg"/> 
+<img src="images/proj6_canva.png"/> 
 <p id="identifier" class="p">
 Lovell and co-authors (Lovell et al. 2015) proposed the proportionality method for relative correlation, as a valid alternative to absolute correlation. This project, thus, focused on illustrating the proportionality analysis of microbiome data using propr package by Quiin. Consistenet with previous findings, I observed proportionality is a precise indicator of absolute correlation, although sensitivity is limited. 
 </p>
