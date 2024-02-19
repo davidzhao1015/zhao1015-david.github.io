@@ -1,6 +1,6 @@
 <style>
   .heading1{
-    color: red;
+    color: black;
     font-weight:bold;
     font-size: 200%;
     font-family: Segoe UI;
