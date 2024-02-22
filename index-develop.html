@@ -44,6 +44,12 @@
           background-color: #f1f1f1;
           height: 300px; /* only for demonstration, should be removed */
         }
+
+        aside {
+          float: left;
+          width: 10%;
+          background-color: aqua; 
+        }
         
         /* Clear floats after the columns */
         section::after {
@@ -62,7 +68,7 @@
         
         /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
         @media (max-width: 600px) {
-          nav, article {
+          nav, article, aside {
             width: 100%;
             height: auto;
           }
@@ -78,7 +84,7 @@
 
 <section>
   <nav>
-    <ul>
+    <!-- <ul>
       <li>Web Development Project
         <ul>
           <li>WEGAN: Web-based Analytics Tool for Ecology Data</li>
@@ -106,15 +112,31 @@
       <li>Microbiome-based machine learning models to predict childhood obesity trajectory</li>
     </ul>
   </li>
-</ul>
+</ul> -->
+
   </nav>
 
   <article>
-    <p>
-      In this project, my colleagues and I developed a multiple linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The project used a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively.
-    </p>
+    <div class="project1">
+      <img src="images/proj1_canva3.jpg" alt="vitamin D use and gut microbiome" width="100" height="70"> 
+      <p>
+        In this project, my colleagues and I developed a multiple linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The project used a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively.
+      </p>
+      
 
+    </div>
+    
   </article>
+
+  <aside>
+    <ul>
+      <li>Web development Projects</li>
+      <li>Microbiome Epidemiology Projects</li>
+      <li>Machine Learning Projects</li>
+      <li>Genomics Bioinformatics Projects</li>
+    </ul>
+
+  </aside>
 </section>
 
 
