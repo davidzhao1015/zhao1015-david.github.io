@@ -57,6 +57,7 @@ a:hover small {
 
 .wrapper {
   width:960px;
+  // top-and-bottom right-and-left
   margin:0 auto;
 }
 
@@ -108,7 +109,7 @@ header {
   // the original width 270px 
   width: 20%; 
   float:left;
-  position:fixed;
+  position:absolute;
   padding-top: 80px;
   // -webkit-font-smoothing:subpixel-antialiased;
 }
