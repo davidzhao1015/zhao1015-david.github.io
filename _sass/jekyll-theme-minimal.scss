@@ -109,9 +109,9 @@ header {
   // the original width 270px 
   width: 20%; 
   float:left;
-  position:absolute;
+  position:fixed;
   padding-top: 80px;
-  // -webkit-font-smoothing:subpixel-antialiased;
+  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 ul.downloads {
