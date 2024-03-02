@@ -72,7 +72,6 @@
         article .project-text {
           position: relative;
           width: 100%;
-          border: #666 solid;
         }
 
         article div.project-img {
@@ -132,6 +131,10 @@
         div.project-link a:active {
           color:hotpink;
         }
+
+        hr {
+          width: 10%;
+        }
         
        
         aside {
@@ -174,7 +177,7 @@
 <section>
   <nav class="bio">
     <p class="name">Xin (David) Zhao</p>
-    <img class="profile" src="" alt="my profile">
+    <img class="profile" src="images/profile-pic-real.png" alt="my profile">
     <p class="external-links">
       <a href="pdf/fullCV_DavidXinZhao_Feb2023.pdf">CV</a> | 
       <a href="https://www.linkedin.com/in/davidxzhao/">LinkedIn</a> |
@@ -212,6 +215,7 @@
           In this project, my colleagues and I developed a multiple linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The project used a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively.
         </p>
         </div>
+        <hr>
 
         <div class="project-link">
         <p>
@@ -219,10 +223,151 @@
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <i class="far fa-file-pdf"></i><a href="pdf/Poster_vitD_microbiome_david.pdf" target="_blank">Poster</a> | <a href="https://www.mdpi.com/2218-273X/13/2/200" target="_blank">Paper</a>
         </p>
-        <hr>
+        
         </div>
       </div>
     </div>
+
+    <div class="project2">
+      <div class="project-text">
+        <div class="project-img">
+          <img src="images/proj2_canva.png" alt="gut microbiota and IBD">
+        </div>
+
+        <div class="project-title">
+          <p>Microbiome Epidemiology</pp>
+          <h3>Gut microbiota variations between IBD versus healthy adults</h3>
+        </div>
+
+        <div class="project-skills">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Mixed-Effect Model</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Data Transformation</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Multiple Test Correction</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">MaAsLin2</span>
+        </div>
+
+        <div class="project-description">
+        <p>
+          To detect taxa differentially abundant in IBD patients, I built a generalized mixed-effect model with MaAsLin2 package, considering repeated samples as a random-effect variable. The input metagenomic data and metadata were derived from the openly available IBD dataset of the integrated human microbiome project (iHMP). 
+        </p>
+        </div>
+        <hr>
+        <div class="project-link">
+        <p>
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <i class="far fa-file-pdf"></i><a href="html/maaslin2-IBD-microbiome.html" target="_blank">HTML</a> 
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project3">
+      <div class="project-text">
+        <div class="project-img">
+          <img src="images/proj4_canva2.png" alt="gut microbiota and IBD">
+        </div>
+
+        <div class="project-title">
+          <p>Microbiome Epidemiology</pp>
+          <h3>Differential analysis of microbiota data with over-dispersion using edgeR and DESeq2</h3>
+        </div>
+
+        <div class="project-skills">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">edgeR</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">DESeq2</span>
+        </div>
+
+        <div class="project-description">
+        <p>
+          The microbiome is often over-dispersed and zero-inflated invalidating assumptions of conventional statistical models. The negative binomial algorithm can address the over-dispersion issue inherent in microbiome count data. In this project, I detected differentially-abundant taxa in IBD patients using the edgeR package that implements negative binomial modeling. 
+        </p>
+        </div>
+        <hr>
+        <div class="project-link">
+        <p>
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <i class="far fa-file-pdf"></i><a href="html/overdisp-zeroinflate-model.html" target="_blank">HTML</a> 
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project4">
+      <div class="project-text">
+        <div class="project-img">
+          <img src="images/fig3_proj1.png?raw=false" alt="gut microbiota and IBD">
+        </div>
+
+        <div class="project-title">
+          <p>Machine Learning</pp>
+          <h3>Microbiome-based machine learning models to predict childhood obesity trajectory</h3>
+        </div>
+
+        <div class="project-skills">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Predictive Modelling</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Random Forest</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">R</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Data Visualization</span>
+
+        </div>
+
+        <div class="project-description">
+        <p>
+          Knowing obesity risk earlier could help healthcare professionals manage children's weight more effectively. This project aims to use fecal microbiome data to predict future obesity risk with machine learning algorithms. Random Forest, XGBoost, GLMM, and Regularized Logistic classifiers were developed based on the data set of 2000+ infants. The optimal classifier achieved an AUC of 0.83 with a specificity of 73% and sensitivity of 85%.
+        </p>
+        </div>
+        <hr>
+        <div class="project-link">
+        <p>
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <i class="far fa-file-pdf"></i><a href="pdf/PPT_predict-child-obesity_davidzhao.pdf" target="_blank">PDF</a> | <a href="https://github.com/davidzhao1015/infant_microbiota_predict_obesity/blob/main/bmi_traj_pred_infant_microbiota.Rmd" target="_blank">GitHub</a>
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project5">
+      <div class="project-text">
+        <div class="project-img">
+          <img src="images/wegan_homepage.png" alt="gut microbiota and IBD">
+        </div>
+
+        <div class="project-title">
+          <p>Web Development</p>
+          <h3>WEGAN: Web Application Streamlining Ecology Data Analysis</h3>
+        </div>
+
+        <div class="project-skills">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Java</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">HTML CSS</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Web Server</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">R</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Multivariate Statistics</span>
+        </div>
+
+        <div class="project-description">
+        <p>
+          This collaborative project aims to develop a web-based software application that automates data analysis for ecologists and produces reproducible reports within minutes.
+        </p>
+        </div>
+        <hr>
+        <div class="project-link">
+        <p>
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <i class="far fa-file-pdf"></i><a href="http://35.223.7.204:8080/MetaboAnalyst-4.34/faces/home.xhtml" target="_blank">Web site</a> 
+        </p>
+        </div>
+      </div>
+    </div>
+
   </article>
 
   <aside>
