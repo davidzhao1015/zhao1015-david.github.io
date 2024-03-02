@@ -4,6 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Data Science Portfolio</title>
+      
       <style>
         * {
           box-sizing: border-box;
@@ -38,7 +39,7 @@
         }
 
         nav img {
-          width: 70%;
+          width: 50%;
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -115,7 +116,24 @@
         }
 
         
+        div.project-link a:link {
+          color:blue;
+          text-decoration: none;
+        }
 
+        div.project-link a:visited {
+          color:green;
+        }
+        
+        div.project-link a:hover {
+          color:blue;
+        }
+
+        div.project-link a:active {
+          color:hotpink;
+        }
+        
+       
         aside {
           float: left;
           width: 10%;
@@ -150,13 +168,13 @@
 <body>
 
 <header>
-  <h2>Data Science Portfolio</h2>
+  <h2></h2>
 </header>
 
 <section>
   <nav class="bio">
     <p class="name">Xin (David) Zhao</p>
-    <img class="profile" src="images/profile-pic-real.png" alt="my profile">
+    <img class="profile" src="" alt="my profile">
     <p class="external-links">
       <a href="pdf/fullCV_DavidXinZhao_Feb2023.pdf">CV</a> | 
       <a href="https://www.linkedin.com/in/davidxzhao/">LinkedIn</a> |
@@ -181,11 +199,12 @@
         </div>
 
         <div class="project-skills">
-          <p>
-            Linear regression, Logistic regression, Cohort study, R
-          </p>
           <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-          <span class="w3-tag w3-blue">New!</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Statistical Modeling</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Data Visualization</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Cohort Study</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">R</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Scientific Writing</span>
         </div>
 
         <div class="project-description">
@@ -196,8 +215,11 @@
 
         <div class="project-link">
         <p>
-          <a href="pdf/Poster_vitD_microbiome_david.pdf">Poster</a> | <a href="https://www.mdpi.com/2218-273X/13/2/200">Paper</a>
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <i class="far fa-file-pdf"></i><a href="pdf/Poster_vitD_microbiome_david.pdf" target="_blank">Poster</a> | <a href="https://www.mdpi.com/2218-273X/13/2/200" target="_blank">Paper</a>
         </p>
+        <hr>
         </div>
       </div>
     </div>
