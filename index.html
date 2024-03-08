@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Data Science Portfolio</title>
+      
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Style the header */
+        header {
+          background-color: #666;
+          padding: 60px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+        }
+        
+        nav {
+          float: left;
+          width: 30%;
+          position: sticky;
+          background: transparent;
+          top: 20px;
+          
+        }
+
+        nav .name {
+          font-size: 17px;
+          font-family: Arial, sans-serif;
+        }
+
+        nav img {
+          width: 40%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+
+        nav p {
+          text-align: center;
+        }
+        
+        nav ul {
+          list-style-type: none;
+          padding: 15px;
+          padding-top: 2px;
+        }
+
+        nav li {
+          line-height: 1.5;
+        }
+        
+        article {
+          float: left;
+          width: 65%;
+          background-color: transparent;
+          margin-right: 10px;
+          margin-top: 10px;
+        }
+
+       .project {
+          border: #aeaaaa solid;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 0px;
+          padding-bottom: 5px;
+          margin-bottom: 15px;
+          border-radius: 7px;
+        }
+
+        .combine-text {
+          /* border: #666 solid; */
+          width: 60%;
+          padding-right: 0px;
+          margin-right: 2px;
+          
+        }
+
+        article img {
+          width: 350px;
+          height:230px;
+          object-fit: fill;
+          float: right;
+          margin-top: 18px;
+          /* border: #666 solid; */
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          padding: 5px;
+        }
+
+        article img:hover {
+          box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+
+        div.project-title h3 {
+          font-size: large;
+          font-family: Harding, Palatino, serif;
+          font-weight: bolder;
+          /* border: #666 solid; */
+        }
+
+        div.project-title p {
+          font-size: small;
+          /* color:#777; */
+        }
+
+        div.project-skills p {
+          font-size: 12px;
+        }
+
+        div.project-description p {
+          font-size: 15px;
+          color: #777;
+          line-height: 1.3;
+          font-family: Arial, Helvetica, sans-serif;
+          /* border: #666 solid; */
+        }
+
+        div.project-link p {
+          font-size: small;
+
+        }
+
+        
+        div.project-link a:link {
+          color:blue;
+          text-decoration: none;
+        }
+
+        div.project-link a:visited {
+          color:green;
+        }
+        
+        div.project-link a:hover {
+          color:blue;
+        }
+
+        div.project-link a:active {
+          color:hotpink;
+        }
+
+       
+        /* Clear floats after the columns */
+        section::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: #777;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+        
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+          nav, article, aside {
+            width: 100%;
+            height: auto;
+          }
+        }
+        </style>
+</head>
+
+<body>
+
+<header>
+  <h2></h2>
+</header>
+
+<section>
+  <nav class="bio">
+    <p class="name">Xin (David) Zhao</p>
+    <img class="profile" src="images/profile-pic-real.png" alt="my profile">
+    <p class="external-links">
+      <a href="pdf/fullCV_DavidXinZhao_Feb2023.pdf">CV</a> | 
+      <a href="https://www.linkedin.com/in/davidxzhao/">LinkedIn</a> |
+      <a href="https://scholar.google.com/citations?user=OVK0_oAAAAAJ&hl=en">Google Scholar</a>
+    </p>
+    <ul>
+      <li>Microbiome Data Scientist</li>
+      <li>Bioinformatician</li>
+    </ul>
+  </nav>
+
+  <article class="project-info">
+    
+    <div class="project">
+        <a target="_blank" href="images/proj1_canva3.jpg">
+        <img src="images/proj1_canva3.jpg" alt="vitamin D use and gut microbiome">
+      </a>
+
+        <div class="combine-text">
+
+          <div class="project-title">
+            <p>Microbiome Epidemiology</p>
+            <h3>Unveiling How Vitamin D Supplements Shape Infant Gut Microbiota Using Regression Models</h3>
+          </div>
+
+          <div class="project-skills">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Statistical Modeling</span>
+            <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Data Visualization</span>
+            <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Cohort Study</span>
+            <span class="w3-tag w3-small w3-center w3-round-large w3-blue">R</span>
+            <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Scientific Writing</span>
+          </div>
+
+          <div class="project-description">
+          <p>
+            In this project, my colleagues and I developed a multiple linear model to investigate the relationship between vitamin D use, fecal metabolites, and microbiota, adjusting for covariables. The project used a cohort dataset of 575 infants. Vitamin D use and some prenatal variables were extracted from questionnaires; fecal metabolites and microbiota data were a readout of the NMR spectrum and high-throughput DNA sequencing, respectively.
+          </p>
+          </div>
+        
+          <div class="project-link">
+          <p>
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i class="far fa-file-pdf"></i><a href="pdf/Poster_vitD_microbiome_david.pdf" target="_blank">Poster</a> | <a href="https://www.mdpi.com/2218-273X/13/2/200" target="_blank">Paper</a>
+          </p>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="project">
+
+      <img src="images/proj4_canva2.png" alt="gut microbiota and IBD">
+
+      <div class="combine-text">
+
+        <div class="project-title">
+          <p>Microbiome Epidemiology</pp>
+            <h3>Differential analysis of microbiota data with over-dispersion using edgeR and DESeq2</h3>
+        </div>
+
+        <div class="project-skills">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">edgeR</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">DESeq2</span>
+        </div>
+
+        <div class="project-description">
+          <p>
+            The microbiome is often over-dispersed and zero-inflated invalidating assumptions of conventional statistical models. The negative binomial algorithm can address the over-dispersion issue inherent in microbiome count data. In this project, I detected differentially-abundant taxa in IBD patients using the edgeR package that implements negative binomial modeling. 
+          </p>
+        </div>
+      
+        <div class="project-link">
+          <p>
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i class="far fa-file-pdf"></i><a href="html/overdisp-zeroinflate-model.html" target="_blank">HTML</a> 
+          </p>
+        </div>
+      </div>
+  </div>
+
+
+  <div class="project">
+
+      <img src="images/fig3_proj1.png?raw=false" alt="gut microbiota and IBD">
+
+      <div class="combine-text">
+
+        <div class="project-title">
+          <p>Machine Learning</pp>
+          <h3>Microbiome-based machine learning models to predict childhood obesity trajectory</h3>
+        </div>
+
+        <div class="project-skills">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Predictive Modelling</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Random Forest</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">R</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Data Visualization</span>
+        </div>
+
+        <div class="project-description">
+          <p>
+            Knowing obesity risk earlier could help healthcare professionals manage children's weight more effectively. This project aims to use fecal microbiome data to predict future obesity risk with machine learning algorithms. Random Forest, XGBoost, GLMM, and Regularized Logistic classifiers were developed based on the data set of 2000+ infants. The optimal classifier achieved an AUC of 0.83 with a specificity of 73% and sensitivity of 85%.
+          </p>
+        </div>
+      
+        <div class="project-link">
+          <p>
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i class="far fa-file-pdf"></i><a href="pdf/PPT_predict-child-obesity_davidzhao.pdf" target="_blank">PDF</a> | <a href="https://github.com/davidzhao1015/infant_microbiota_predict_obesity/blob/main/bmi_traj_pred_infant_microbiota.Rmd" target="_blank">GitHub</a>
+          </p>
+        </div>
+      </div>
+  </div>
+
+  <div class="project">
+    <img src="images/wegan_homepage.png">
+
+      <div class="combine-text">
+        <div class="project-title">
+          <p>Web Development</p>
+          <h3>WEGAN: Web Application Streamlining Ecology Data Analysis</h3>
+        </div>
+
+        <div class="project-skills">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Java</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">HTML CSS</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Web Server</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">R</span>
+          <span class="w3-tag w3-small w3-center w3-round-large w3-blue">Multivariate Statistics</span>
+        </div>
+
+        <div class="project-description">
+          <p>
+            Our collaborative project aims to create a web-based software application automating data analysis for ecologists. It utilizes the robust R package 'vegan' within a modern JSF framework. The user-friendly interface allows biologists to analyze their data quickly and easily, even without programming or advanced statistical expertise, generating reproducible reports in minutes.
+          </p>
+        </div>
+      
+        <div class="project-link">
+          <p>
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i class="far fa-file-pdf"></i><a href="http://35.223.7.204:8080/MetaboAnalyst-4.34/faces/home.xhtml" target="_blank">Web site</a> 
+          </p>
+        </div>
+      </div>
+  </div>
+</article>
+</section>
+</body> 
+  </html>
