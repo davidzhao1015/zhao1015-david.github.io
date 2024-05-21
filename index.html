@@ -251,9 +251,11 @@
 
 
 <!-- Tab links -->
-    <button class="tablinks" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-    <button class="tablinks" onclick="openCity('Paris', this, 'green')">Paris</button>
-    <button class="tablinks" onclick="openCity('Tokyo', this, 'orange')">Tokyo</button>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>    
     
   <article class="project-info">
 <!-- Tab contents -->
@@ -402,18 +404,18 @@
 </footer>
 
 <script>
-function openPage(pageName,elmnt,color) {
+function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-  tablinks = document.getElementsByClassName("tablink");
+  tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
 
 // Get the element with id="defaultOpen" and click on it
