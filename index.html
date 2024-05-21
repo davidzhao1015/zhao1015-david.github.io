@@ -183,14 +183,15 @@
           }
         }
 
-        /* Style the tab */
+
+/* Style the tab */
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
 
-/* Style the buttons that are used to open the tab content */
+/* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
   float: left;
@@ -199,6 +200,7 @@
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  font-size: 17px;
 }
 
 /* Change background color of buttons on hover */
@@ -218,8 +220,6 @@
   border: 1px solid #ccc;
   border-top: none;
 }
-
-
 
 </style>
 
@@ -251,11 +251,9 @@
 
 
 <!-- Tab links -->
-  <div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-  </div>  
+    <button class="tablinks" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+    <button class="tablinks" onclick="openCity('Paris', this, 'green')">Paris</button>
+    <button class="tablinks" onclick="openCity('Tokyo', this, 'orange')">Tokyo</button>
     
   <article class="project-info">
 <!-- Tab contents -->
@@ -404,19 +402,20 @@
 </footer>
 
 <script>
-function openCity(evt, cityName) {
+function openPage(pageName,elmnt,color) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-  tablinks = document.getElementsByClassName("tablinks");
+  tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tablinks[i].style.backgroundColor = "";
   }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
 }
+
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
