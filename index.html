@@ -183,6 +183,44 @@
           }
         }
 
+        /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -211,11 +249,21 @@
     <p class="bio2">Who am I? I am a microbiologist-turned bioinformatician, earning a PhD in Food Microbiology along the way. My expertise lies in aiding biologists in comprehending their data through meticulous analysis and bespoke software development. Let's collaborate to illuminate the intricacies of your data.</p>
   </nav>
 
+
+<!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  </div>  
+    
   <article class="project-info">
-    <div class="project">
+<!-- Tab contents -->
+    <div id="London" class="tabcontent">
+       <div class="project">
         <a target="_blank" href="images/proj1_canva3.jpg">
         <img src="images/proj1_canva3.jpg" alt="vitamin D use and gut microbiome">
-      </a>
+        </a>
 
         <div class="combine-text">
 
@@ -247,10 +295,10 @@
           </div>
         </div>
     </div>
+    </div>
 
-
+    <div id="Paris" class="tabcontent">
     <div class="project">
-
       <img src="images/proj4_canva2.png" alt="gut microbiota and IBD">
 
       <div class="combine-text">
@@ -278,10 +326,11 @@
         </div>
       </div>
   </div>
+  </div>
 
-
+<!-- Tab content -->
+  <div id="Tokyo" class="tabcontent">
   <div class="project">
-
       <img src="images/fig3_proj1.png?raw=false" alt="gut microbiota and IBD">
 
       <div class="combine-text">
@@ -311,6 +360,7 @@
         </div>
       </div>
   </div>
+  
 
   <div class="project">
     <img src="images/wegan_homepage.png">
@@ -343,6 +393,8 @@
         </div>
       </div>
   </div>
+  </div>
+
 </article>
 
 </section>
@@ -351,5 +403,22 @@
   <p style="display: inline;">davidzhao1015@gmail.com</p>
 </footer>
 
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
 </body> 
-  </html>
+</html>
+
