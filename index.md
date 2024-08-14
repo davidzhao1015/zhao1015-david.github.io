@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
-# Impact of Vitamin D on Infant Gut Microbiota: A Regression Analysis
-![vitD and infant gut project](assets/img/proj1_canva2.png)
+### Impact of Vitamin D on Infant Gut Microbiota: A Regression Analysis
+<!-- ![vitD and infant gut project](./assets/img/proj1_canva2.png) -->
+<!-- <img src="./assets/img/proj1_canva2.png" alt="vitD and infant gut project" width="400"/> -->
+<img src="./assets/img/proj1_canva2.png" alt="vitD and infant gut project" width="85%" style="float:none; display:block; margin:0 auto;"/>
+
 In this project, we developed a multiple linear model to explore how vitamin D supplementation affects fecal metabolites and gut microbiota in 575 infants. We incorporated data from questionnaires on vitamin D use and prenatal factors, alongside NMR spectroscopy and high-throughput DNA sequencing for metabolite and microbiota analysis, respectively.
 
 
