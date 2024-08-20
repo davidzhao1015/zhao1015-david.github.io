@@ -12,7 +12,7 @@ layout: default
 
 We explored how vitamin D supplementation affects the gut health of 575 infants by analyzing their stool metabolites and gut bacteria. By combining health questionnaires with advanced lab techniques, we gained insights into how early nutrition influences a child's gut environment and overall well-being. [Learn More](about.md)
 
-<img src="./assets/img/proj1_canva2.png" alt="vitD and infant gut project" width="85%" style="float:none; display:block; margin:0 auto;"/>
+<img src="assets/img/vitd-infant-microbiota-poster.png" alt="vitD and infant gut project" width="85%" style="float:none; display:block; margin:0 auto;"/>
 
 --- 
 ### Predict Childhood Obesity using RF, XGBoost and GLMM in R
