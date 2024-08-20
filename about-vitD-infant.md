@@ -36,7 +36,8 @@ Covariates: Included delivery mode, feeding practices, antibiotic use, maternal 
 
 ## Results
 --- 
-Vitamin D supplementation was linked to a higher likelihood of elevated 1,2-PD levels (adjusted OR 1.65, 95% CI: 1.06–2.53) and a lower likelihood of elevated fecal glycerol levels (adjusted OR: 0.62, 95% CI: 0.42–0.90) after accounting for breastfeeding and other factors. These results were consistent in linear regression models, showing that vitamin D supplementation was positively associated with 1,2-PD and negatively associated with glycerol (adjusted β: 0.37, 95% CI 0.03–0.71; adjusted β: −0.23, 95% CI −0.44–−0.03). 
+Vitamin D supplementation was linked to a higher likelihood of elevated 1,2-PD levels and a lower likelihood of elevated fecal glycerol levels after accounting for breastfeeding and other factors. These results were consistent in linear regression models, showing that vitamin D supplementation was positively associated with 1,2-PD and negatively associated with glycerol.
+<img src="assets/img/tab1.png" alt="model table vitD and infant" width="90%" style="float:none; display:block; margin:0 auto;"/>
 
 Additionally, 1,2-PD and glycerol levels were negatively correlated, and 1,2-PD was positively correlated with Bifidobacteriaceae, Lactobacillaceae, Enterobacteriaceae, and acetate levels.
 
