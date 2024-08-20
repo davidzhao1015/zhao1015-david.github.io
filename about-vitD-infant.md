@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: Project Description for Vitamin D and Infant Gut Health 
-permalink: /project_description_vitaminD_infant_gut/
+permalink: /about_project_vitaminD_infant_gut/
 ---
 
 # project Description: Vitamin D and Infant Gut Health, A Regression Analysis
