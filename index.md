@@ -8,9 +8,9 @@ layout: default
 
 ### Vitamin D and Infant Gut Health: A Regression Analysis
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/davidzhao1015/Vitamin-D-supplementation-and-infant-microbiome)
+[![Paper](https://img.shields.io/badge/Paper-Biomolecules-blue)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9952978/)
 
-In this project, I analyzed the effects of vitamin D drops, including their non-medicinal excipients like glycerin and 1,2-propanediol, on gut metabolites and microbes in three-month-old infants. Using multiple regression models on data from the CHILD Cohort Study, I explored how vitamin D supplementation influences the infant gut environment, revealing potential impacts on gut microbiota composition and function. [Learn More](about.md) 
+In this project, I analyzed the effects of vitamin D drops, including their non-medicinal excipients like glycerin and 1,2-propanediol, on gut metabolites and microbes in three-month-old infants. Using multiple regression models on data from the CHILD Cohort Study, I explored how vitamin D supplementation influences the infant gut environment, revealing potential impacts on gut microbiota composition and function. [Learn More](about-vitD-infant.md) 
 
 <img src="assets/img/vitd-infant-microbiota-poster.png" alt="vitD and infant gut project" width="90%" style="float:none; display:block; margin:0 auto;"/>
 
