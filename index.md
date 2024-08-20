@@ -10,9 +10,9 @@ layout: default
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/davidzhao1015/Vitamin-D-supplementation-and-infant-microbiome)
 
-We explored how vitamin D supplementation affects the gut health of 575 infants by analyzing their stool metabolites and gut bacteria. By combining health questionnaires with advanced lab techniques, we gained insights into how early nutrition influences a child's gut environment and overall well-being. [Learn More](about.md)
+In this project, I analyzed the effects of vitamin D drops, including their non-medicinal excipients like glycerin and 1,2-propanediol, on gut metabolites and microbes in three-month-old infants. Using multiple regression models on data from the CHILD Cohort Study, I explored how vitamin D supplementation influences the infant gut environment, revealing potential impacts on gut microbiota composition and function. [Learn More](about.md) 
 
-<img src="assets/img/vitd-infant-microbiota-poster.png" alt="vitD and infant gut project" width="85%" style="float:none; display:block; margin:0 auto;"/>
+<img src="assets/img/vitd-infant-microbiota-poster.png" alt="vitD and infant gut project" width="90%" style="float:none; display:block; margin:0 auto;"/>
 
 --- 
 ### Predict Childhood Obesity using RF, XGBoost and GLMM in R
