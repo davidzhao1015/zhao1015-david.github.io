@@ -15,21 +15,20 @@ Previous research has indicated that Veillonellaceae, a type of gut bacteria, de
     
 In this analysis, I investigated the impact of vitamin D drops on key gut metabolites and microbes in three-month-old infants. Using multiple regression modeling, the study integrates data from metabolomics, microbiome profiling, and medical records from the CHILD (Canadian Healthy Infant Longitudinal Development) Cohort Study, a large prospective birth cohort in Canada. This approach aims to shed light on how vitamin D supplementation and its non-medicinal components influence the infant gut microbiota.
     
+
 ## Data
 --- 
 This study analyzed data from 575 infants in the CHILD Cohort Study, accessed on September 1, 2021 ([www.childstudy.ca](http://www.childstudy.ca/)).
+- **Fecal Metabolites:** Quantified as µmol/g of feces using NMR spectroscopy.
+- **Fecal Microbiota:** Collected at 3.7 months (SD = 1.2), analyzed for microbial taxa relative abundance via 16S rRNA gene sequencing on Illumina.
+- **Covariates:** Included delivery mode, feeding practices, antibiotic use, maternal BMI, vitamin use, socioeconomic status, and infant age at stool collection. Data were collected via birth records and standardized questionnaires.
     
-Fecal Metabolites: Quantified as µmol/g of feces using NMR spectroscopy.
-    
-Fecal Microbiota: Collected at 3.7 months (SD = 1.2), analyzed for microbial taxa relative abundance via 16S rRNA gene sequencing on Illumina.
-    
-Covariates: Included delivery mode, feeding practices, antibiotic use, maternal BMI, vitamin use, socioeconomic status, and infant age at stool collection. Data were collected via birth records and standardized questionnaires.
-    
+
 ## Analysis
 --- 
 - **Missing Data**: Samples with missing values were excluded from the analysis.
 - **Data Transformation and Normalization**: For logistic regression, fecal metabolite concentrations were converted into binary variables (high vs. low levels). For linear regression, concentrations (in µmol/g) were log-transformed to meet model assumptions.
-- **Directed Acyclic Graph (DAG)**: A DAG was used to identify a minimal set of covariates based on a literature review. The 15% change-in-estimate criterion was applied to finalize the covariates for adjustment.
+- **Directed Acyclic Graph (DAG)**: A DAG was used to identify a minimal set of covariates based on a literature review. The 15% change-in-estimate criterion was applied to finalize the covariates for adjustment. View the original DAG graph <a href="https://dagitty.net/dags.html?id=SDRL_h#" target="_blank">here</a>.  
 - **Logistic Regression**: Logistic models were used to assess the impact of vitamin D drops on fecal glycerol and 1,2-PD, with metabolite levels as independent variables and vitamin D drops as the dependent variable. Covariates included feeding mode, introduction of solids at 3 months, maternal education, and age of stool collection.
 - **Linear Regression**: Linear models were constructed to further explore the impact of vitamin D on the two target fecal metabolites, using log-transformed concentrations as independent variables, with categorical and numerical variables as dependent variables.
 - **Spearman Correlation**: Spearman correlation analysis was performed to examine associations between fecal glycerol or 1,2-PD and gut microbes as well as short-chain fatty acids.
@@ -40,10 +39,13 @@ Vitamin D supplementation was linked to a higher likelihood of elevated 1,2-PD l
 <img src="assets/img/tab1.png" alt="model table vitD and infant" width="90%" style="float:none; display:block; margin:0 auto;"/>
 
 Additionally, 1,2-PD and glycerol levels were negatively correlated, and 1,2-PD was positively correlated with Bifidobacteriaceae, Lactobacillaceae, Enterobacteriaceae, and acetate levels.
+<img src="assets/img/Fig1_heatmap_taxa.jpg" alt="model table vitD and infant" width="90%" style="float:none; display:block; margin:0 auto;"/>
+
 
 ## Contribution
 --- 
 Our research shows that administering vitamin D supplements to infants may have distinct and independent effects on the metabolites produced by the infant gut microbiota.
+
 
 ## Acknowledgments
 --- 
