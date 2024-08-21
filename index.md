@@ -20,7 +20,7 @@ In this project, I analyzed the effects of vitamin D drops, including their non-
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/davidzhao1015/infant_microbiota_predict_obesity)
 
-Knowing obesity risk earlier could help healthcare professionals manage children's weight more effectively. This project aims to use fecal microbiome data to predict future obesity risk with machine learning algorithms. Random Forest, XGBoost, GLMM, and Regularized Logistic classifiers were developed based on the data set of 2000+ infants. The optimal classifier achieved an AUC of 0.83 with a specificity of 73% and sensitivity of 85%.
+Knowing obesity risk earlier could help healthcare professionals manage children's weight more effectively. This project aims to use fecal microbiome data to predict future obesity risk with machine learning algorithms. Random Forest, XGBoost, GLMM, and Regularized Logistic classifiers were developed based on the data set of 2000+ infants. The optimal classifier achieved an AUC of 0.83 with a specificity of 73% and sensitivity of 85%. [Learn More](about-obesity-predict.md)
 
 <img src="assets/img/fig3_proj1.png" alt="predict obesity ML" width="85%" style="float:none; display:block; margin:0 auto;"/>
 
