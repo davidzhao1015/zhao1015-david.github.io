@@ -52,7 +52,7 @@ Childhood obesity, a global concern affecting millions, is linked to serious hea
 
 **Models:** Among 36 machine learning classifiers tested, the GLMM model with microbial features and infant sex achieved the highest performance with an AUROC of 0.84. Batch correction did not notably enhance classifier performance, and statistical models like RegLog and GLM generally outperformed machine learning models like RF and XGBoost. The GLMM, accounting for repeat samples, improved predictive ability by 14-50% over non-mixed-effect models. Including infant sex in models improved performance, while lab and city variables had minimal impact.
 
-
+<!-- ![Model menu](assets/img/model-menu.png) -->
 
 **Predictive features:** Microbial features were the key predictors of the target variable, with a panel of five gut microbes—Oscillospira, Rikenellaceae, Haemophilus, Blautia, and Phascolarctobacterium—providing accurate predictions regardless of lab or province. Oscillospira and low Rikenellaceae were particularly predictive of the high-risk group. Covariables like lab, province, and sex had less impact on model performance compared to microbial features, with a GLMM model using only microbial predictors achieving similar performance to one that included infant sex.
 
@@ -82,3 +82,7 @@ Childhood obesity, a global concern affecting millions, is linked to serious hea
 --- 
 - Dr. Anita Kozyrskyj supervised the study and advised on the proposed methodologies.
 - Dr. Myrtha Reyna and Dr. Wendy Lou provided statistical counseling.
+
+## Appendix 
+--- 
+The information of environment, R version and packages is [here](assets/pdf/r-packages-infant-obesity-prediction-2021-10-30.pdf). 
