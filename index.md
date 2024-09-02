@@ -27,7 +27,9 @@ Knowing obesity risk earlier could help healthcare professionals manage children
 ---
 ### Impact of Birth Factors on Infant Gut Health: Insights from a Microbiota Study 
 
-This academic project explores how birth factors like Caesarean sections and intrapartum antibiotic prophylaxis affect infant gut microbiota. Using linear and logistic models along with multivariate analysis, we examined the impact on *Bifidobacterium* abundance and overall microbiota diversity. Our findings aim to reveal how these factors shape early gut health and inform better clinical practices.[Learn More](about-infant-bifido-birth.md)
+[![Paper](https://img.shields.io/badge/Paper-Microorganisms-blue)](assets/pdf/microorganisms-09-01847-with-cover.pdf) 
+
+This academic project explores how birth factors like Caesarean sections and intrapartum antibiotic prophylaxis affect infant gut microbiota. Using linear and logistic models along with multivariate analysis, we examined the impact on *Bifidobacterium* abundance and overall microbiota diversity. Our findings aim to reveal how these factors shape early gut health and inform better clinical practices. [Learn More](about-infant-bifido-birth.md)
 
 
 
