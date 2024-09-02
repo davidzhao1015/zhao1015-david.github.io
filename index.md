@@ -32,7 +32,17 @@ Knowing obesity risk earlier could help healthcare professionals manage children
 This academic project explores how birth factors like Caesarean sections and intrapartum antibiotic prophylaxis affect infant gut microbiota. Using linear and logistic models along with multivariate analysis, we examined the impact on *Bifidobacterium* abundance and overall microbiota diversity. Our findings aim to reveal how these factors shape early gut health and inform better clinical practices. [Learn More](about-infant-bifido-birth.md)
 
 <img src="assets/img/microorganisms-paper-cover.png" alt="microorganisms journal cover" width="70%" style="float:none; display:block; margin:0 auto;"/>
+
 ---
+## Web Application Development 
 
+### WEGAN: Web Application Streamlining Ecology Data Analysis 
 
+[![Link](https://img.shields.io/badge/Link-WEGAN-blue)](https://wegan.ca/) 
+
+Our collaborative project aims to create a web-based software application automating data analysis for ecologists. It utilizes the robust R package 'vegan' within a modern JSF framework. The user-friendly interface allows biologists to analyze their data quickly and easily, even without programming or advanced statistical expertise, generating reproducible reports in minutes.
+
+<img src="assets/img/wegan_homepage.png" alt="microorganisms journal cover" width="90%" style="float:none; display:block; margin:0 auto;"/>
+
+--- 
 
