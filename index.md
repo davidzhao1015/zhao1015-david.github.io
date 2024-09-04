@@ -46,4 +46,14 @@ Our collaborative project aims to create a web-based software application automa
 
 --- 
 
+### GC-AutoFit: Web Application Automating and Accelerating GC-MS Metabolomics 
+
+[![Link](https://img.shields.io/badge/Link-WebServer-blue)](https://gc-autofit.wishartlab.com/) 
+
+GC-AutoFit is a user-friendly web tool designed to make processing and analyzing data from common GC-MS systems easy, even for those without deep chemistry knowledge. It quickly identifies compounds—sometimes in just 10 seconds—and generates detailed reports that can be used with other software for further analysis. From March to August 2024, I worked on developing the first version of GC-AutoFit alongside my colleagues. I focused on building key features using Ruby on Rails for the front-end and R for the back-end, including custom inputs for biofluids and internal standards. I also debugged R scripts to ensure the accuracy of output concentrations, making GC-AutoFit both accessible and reliable for users at all levels.
+
+<img src="assets/img/snapshot-gc-autofit.png" alt="snapshot gc-autofit" width="100%" style="float:none; display:block; margin:0 auto;"/>
+
+---
+
 
