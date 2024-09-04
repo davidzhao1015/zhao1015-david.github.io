@@ -1,6 +1,6 @@
 title: Xin (David) Zhao
 logo: /assets/img/profile-pic-real.png
-description: I am a microbiologist-turned-bioinformatician with a PhD in Food Microbiology. I specialize in helping biologists understand their data through detailed analysis and custom software development. 
-show_downloads: true
-google_analytics:
+description: I am a microbiologist-turned-bioinformatician with a PhD in Food Science, specializing in data analysis and software development to empower biologists in understanding their data.
+show_downloads: false
+# google_analytics:
 theme: jekyll-theme-minimal
