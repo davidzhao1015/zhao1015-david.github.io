@@ -38,7 +38,8 @@ This academic project explores how birth factors like Caesarean sections and int
 
 ### WEGAN: Web Application Streamlining Ecology Data Analysis 
 
-[![Link](https://img.shields.io/badge/Link-WEGAN-blue)](https://wegan.ca/) 
+[![Link](https://img.shields.io/badge/Link-WEGAN-orange)](https://wegan.ca/)
+[![View on Bitbucket](https://img.shields.io/badge/Bitbucket-View_on_Bitbucket-blue)](https://bitbucket.org/davidzhaowork/wegan/src/master/)  
 
 Our collaborative project aims to create a web-based software application automating data analysis for ecologists. It utilizes the robust R package 'vegan' within a modern JSF framework. The user-friendly interface allows biologists to analyze their data quickly and easily, even without programming or advanced statistical expertise, generating reproducible reports in minutes.
 
@@ -48,7 +49,8 @@ Our collaborative project aims to create a web-based software application automa
 
 ### GC-AutoFit: Web Application Automating and Accelerating GC-MS Metabolomics 
 
-[![Link](https://img.shields.io/badge/Link-WebServer-blue)](https://gc-autofit.wishartlab.com/) 
+[![Link](https://img.shields.io/badge/Link-Web_Server-orange)](https://gc-autofit.wishartlab.com/) 
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/davidzhao1015/gc-autofit-demo)
 
 GC-AutoFit is a user-friendly web tool designed to make processing and analyzing data from common GC-MS systems easy, even for those without deep chemistry knowledge. It quickly identifies compounds—sometimes in just 10 seconds—and generates detailed reports that can be used with other software for further analysis. From March to August 2024, I worked on developing the first version of GC-AutoFit alongside my colleagues. I focused on building key features using Ruby on Rails for the front-end and R for the back-end, including custom inputs for biofluids and internal standards. I also debugged R scripts to ensure the accuracy of output concentrations, making GC-AutoFit both accessible and reliable for users at all levels.
 
