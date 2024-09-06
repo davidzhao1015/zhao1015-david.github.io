@@ -31,7 +31,7 @@ Knowing obesity risk earlier could help healthcare professionals manage children
 
 This academic project explores how birth factors like Caesarean sections and intrapartum antibiotic prophylaxis affect infant gut microbiota. Using linear and logistic models along with multivariate analysis, we examined the impact on *Bifidobacterium* abundance and overall microbiota diversity. Our findings aim to reveal how these factors shape early gut health and inform better clinical practices. [Learn More](about-infant-bifido-birth.md)
 
-<img src="assets/img/microorganisms-paper-cover.png" alt="microorganisms journal cover" width="70%" style="float:none; display:block; margin:0 auto;"/>
+<img src="assets/img/journal-paper-cover-editted.jpeg" alt="microorganisms journal cover" width="70%" style="float:none; display:block; margin:0 auto;"/>
 
 ---
 ## Web Application Development 
